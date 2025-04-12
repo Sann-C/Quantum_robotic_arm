@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>custom_interfaces</name>
+  <version>0.0.1</version>
+  <description>Custom interfaces for quantum-robot integration</description>
+  <maintainer email="3970491712@qq.com">Your Name</sann>
+  <license>Apache License 2.0</license>
+  
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+  <depend>rosidl_runtime_cpp</depend>
+  <depend>action_msgs</depend>
+  <depend>geometry_msgs</depend>
+  
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
+
+

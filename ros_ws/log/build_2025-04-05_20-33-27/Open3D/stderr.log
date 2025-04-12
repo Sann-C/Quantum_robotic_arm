@@ -1,0 +1,87 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:200 (cmake_policy):
+  The OLD behavior for policy CMP0072 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+[0m
+[33mCMake Warning (dev) at /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:1953 (message):
+  Calling FetchContent_Populate(ext_qhull) is deprecated, call
+  FetchContent_MakeAvailable(ext_qhull) instead.  Policy CMP0169 can be set
+  to OLD to allow FetchContent_Populate(ext_qhull) to be called directly for
+  now, but the ability to call it with declared details will be removed
+  completely in a future version.
+Call Stack (most recent call first):
+  3rdparty/qhull/qhull.cmake:13 (FetchContent_Populate)
+  3rdparty/find_dependencies.cmake:1026 (include)
+  CMakeLists.txt:534 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[0mCMake Deprecation Warning at /home/sann/ros_ws/build/Open3D/_deps/ext_pybind11-src/CMakeLists.txt:13 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+[33mCMake Warning (dev) at /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:1564 (cmake_parse_arguments):
+  The BUILD_COMMAND keyword was followed by an empty string or no value at
+  all.  Policy CMP0174 is not set, so cmake_parse_arguments() will unset the
+  ARG_BUILD_COMMAND variable rather than setting it to an empty string.
+Call Stack (most recent call first):
+  /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2145:EVAL:2 (__FetchContent_doPopulation)
+  /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2145 (cmake_language)
+  /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2384 (__FetchContent_Populate)
+  3rdparty/imgui/imgui.cmake:15 (FetchContent_MakeAvailable)
+  3rdparty/find_dependencies.cmake:1192 (include)
+  CMakeLists.txt:534 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:1564 (cmake_parse_arguments):
+  The CONFIGURE_COMMAND keyword was followed by an empty string or no value
+  at all.  Policy CMP0174 is not set, so cmake_parse_arguments() will unset
+  the ARG_CONFIGURE_COMMAND variable rather than setting it to an empty
+  string.
+Call Stack (most recent call first):
+  /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2145:EVAL:2 (__FetchContent_doPopulation)
+  /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2145 (cmake_language)
+  /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2384 (__FetchContent_Populate)
+  3rdparty/imgui/imgui.cmake:15 (FetchContent_MakeAvailable)
+  3rdparty/find_dependencies.cmake:1192 (include)
+  CMakeLists.txt:534 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:1564 (cmake_parse_arguments):
+  The INSTALL_COMMAND keyword was followed by an empty string or no value at
+  all.  Policy CMP0174 is not set, so cmake_parse_arguments() will unset the
+  ARG_INSTALL_COMMAND variable rather than setting it to an empty string.
+Call Stack (most recent call first):
+  /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2145:EVAL:2 (__FetchContent_doPopulation)
+  /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2145 (cmake_language)
+  /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2384 (__FetchContent_Populate)
+  3rdparty/imgui/imgui.cmake:15 (FetchContent_MakeAvailable)
+  3rdparty/find_dependencies.cmake:1192 (include)
+  CMakeLists.txt:534 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at 3rdparty/find_dependencies.cmake:1369 (file):
+  Given path:
+
+    CPPABI_LIBRARY-NOTFOUND
+
+  does not refer to an existing path on disk.
+Call Stack (most recent call first):
+  CMakeLists.txt:534 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[31mCMake Error at 3rdparty/find_dependencies.cmake:1381 (find_library):
+  Could not find CPP_LIBRARY using the following names: c++
+Call Stack (most recent call first):
+  CMakeLists.txt:534 (include)
+
+[0m

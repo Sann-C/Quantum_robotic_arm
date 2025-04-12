@@ -1,0 +1,47 @@
+Built target ament_cmake_python_symlink_ur_moveit_config
+running egg_info
+writing ur_moveit_config.egg-info/PKG-INFO
+writing dependency_links to ur_moveit_config.egg-info/dependency_links.txt
+writing top-level names to ur_moveit_config.egg-info/top_level.txt
+reading manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_ur_moveit_config_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/config/controllers.yaml
+-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/config/joint_limits.yaml
+-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/config/kinematics.yaml
+-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/config/ompl_planning.yaml
+-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/config/ur_servo.yaml
+-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/launch/ur_moveit.launch.py
+-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/rviz/view_robot.rviz
+-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/srdf/ur.srdf.xacro
+-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/srdf/ur_macro.srdf.xacro
+-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.sh
+-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.dsv
+-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/lib/python3.11/site-packages/ur_moveit_config-2.6.0-py3.11.egg-info/PKG-INFO
+-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/lib/python3.11/site-packages/ur_moveit_config-2.6.0-py3.11.egg-info/SOURCES.txt
+-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/lib/python3.11/site-packages/ur_moveit_config-2.6.0-py3.11.egg-info/dependency_links.txt
+-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/lib/python3.11/site-packages/ur_moveit_config-2.6.0-py3.11.egg-info/top_level.txt
+-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/lib/python3.11/site-packages/ur_moveit_config/__init__.py
+-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/lib/python3.11/site-packages/ur_moveit_config/launch_common.py
+-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/lib/python3.11/site-packages/launch_common.py
+-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/share/ament_index/resource_index/package_run_dependencies/ur_moveit_config
+-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/share/ament_index/resource_index/parent_prefix_path/ur_moveit_config
+-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.sh
+-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.dsv
+-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/environment/path.sh
+-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/environment/path.dsv
+-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.bash
+-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.sh
+-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.zsh
+-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.dsv
+-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/package.dsv
+-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/share/ament_index/resource_index/packages/ur_moveit_config
+-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig.cmake
+-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig-version.cmake
+-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/package.xml
+Listing '/home/sann/ros_ws/install/ur_moveit_config/lib/python3.11/site-packages/ur_moveit_config'...
+Compiling '/home/sann/ros_ws/install/ur_moveit_config/lib/python3.11/site-packages/ur_moveit_config/__init__.py'...
+Compiling '/home/sann/ros_ws/install/ur_moveit_config/lib/python3.11/site-packages/ur_moveit_config/launch_common.py'...
+Compiling '/home/sann/ros_ws/install/ur_moveit_config/lib/python3.11/site-packages/launch_common.py'...

@@ -1,0 +1,22 @@
+[0.016s] Invoking command in '/home/sann/ros_ws/build/my_robot_controller': CONDA_PROMPT_MODIFIER=(base) /home/sann/anaconda3/bin/cmake --build /home/sann/ros_ws/build/my_robot_controller -- -j28 -l28
+[0.170s] [100%] Built target my_node
+[0.170s] Invoked command in '/home/sann/ros_ws/build/my_robot_controller' returned '0': CONDA_PROMPT_MODIFIER=(base) /home/sann/anaconda3/bin/cmake --build /home/sann/ros_ws/build/my_robot_controller -- -j28 -l28
+[0.222s] Invoking command in '/home/sann/ros_ws/build/my_robot_controller': CONDA_PROMPT_MODIFIER=(base) /home/sann/anaconda3/bin/cmake --install /home/sann/ros_ws/build/my_robot_controller
+[0.273s] -- Install configuration: ""
+[0.274s] -- Up-to-date: /home/sann/ros_ws/install/my_robot_controller/lib/my_robot_controller/my_node
+[0.274s] -- Up-to-date: /home/sann/ros_ws/install/my_robot_controller/share/ament_index/resource_index/package_run_dependencies/my_robot_controller
+[0.274s] -- Up-to-date: /home/sann/ros_ws/install/my_robot_controller/share/ament_index/resource_index/parent_prefix_path/my_robot_controller
+[0.274s] -- Up-to-date: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/environment/ament_prefix_path.sh
+[0.274s] -- Up-to-date: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/environment/ament_prefix_path.dsv
+[0.274s] -- Up-to-date: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/environment/path.sh
+[0.274s] -- Up-to-date: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/environment/path.dsv
+[0.274s] -- Up-to-date: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/local_setup.bash
+[0.274s] -- Up-to-date: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/local_setup.sh
+[0.274s] -- Up-to-date: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/local_setup.zsh
+[0.274s] -- Up-to-date: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/local_setup.dsv
+[0.274s] -- Installing: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/package.dsv
+[0.275s] -- Up-to-date: /home/sann/ros_ws/install/my_robot_controller/share/ament_index/resource_index/packages/my_robot_controller
+[0.275s] -- Up-to-date: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/cmake/my_robot_controllerConfig.cmake
+[0.275s] -- Up-to-date: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/cmake/my_robot_controllerConfig-version.cmake
+[0.275s] -- Up-to-date: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/package.xml
+[0.276s] Invoked command in '/home/sann/ros_ws/build/my_robot_controller' returned '0': CONDA_PROMPT_MODIFIER=(base) /home/sann/anaconda3/bin/cmake --install /home/sann/ros_ws/build/my_robot_controller

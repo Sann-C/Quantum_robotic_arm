@@ -1,0 +1,1 @@
+Invoking command in '/home/sann/ros_ws/build/vision_processing': CONDA_PROMPT_MODIFIER=(base) /home/sann/anaconda3/bin/cmake /home/sann/ros_ws/src/vision_processing -DCMAKE_INSTALL_PREFIX=/home/sann/ros_ws/install/vision_processing

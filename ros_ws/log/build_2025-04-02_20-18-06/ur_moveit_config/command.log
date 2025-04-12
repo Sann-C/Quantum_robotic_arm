@@ -1,0 +1,1 @@
+Invoking command in '/home/sann/ros_ws/build/ur_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/sann/anaconda3/bin/cmake /home/sann/ros_ws/src/Universal_Robots_ROS2_Driver/ur_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sann/ros_ws/install/ur_moveit_config

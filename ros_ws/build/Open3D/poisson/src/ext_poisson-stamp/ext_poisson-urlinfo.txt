@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/sann/ros_ws/build/Open3D/poisson/src/ext_poisson-stamp/download-ext_poisson.cmake;COMMAND;/home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/sann/ros_ws/build/Open3D/poisson/src/ext_poisson-stamp/verify-ext_poisson.cmake;COMMAND;/home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/sann/ros_ws/build/Open3D/poisson/src/ext_poisson-stamp/extract-ext_poisson.cmake
+source_dir=/home/sann/ros_ws/build/Open3D/poisson/src/ext_poisson/PoissonRecon
+work_dir=/home/sann/ros_ws/build/Open3D/poisson/src/ext_poisson
+url(s)=https://github.com/isl-org/Open3D-PoissonRecon/archive/90f3f064e275b275cff445881ecee5a7c495c9e0.tar.gz
+hash=SHA256=1310df0c80ff0616b8fcf9b2fb568aa9b2190d0e071b0ead47dba339c146b1d3
+      no_extract=
+

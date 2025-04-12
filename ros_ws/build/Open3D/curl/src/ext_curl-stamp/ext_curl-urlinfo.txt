@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/sann/ros_ws/build/Open3D/curl/src/ext_curl-stamp/download-ext_curl.cmake;COMMAND;/home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/sann/ros_ws/build/Open3D/curl/src/ext_curl-stamp/verify-ext_curl.cmake;COMMAND;/home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/sann/ros_ws/build/Open3D/curl/src/ext_curl-stamp/extract-ext_curl.cmake
+source_dir=/home/sann/ros_ws/build/Open3D/curl/src/ext_curl
+work_dir=/home/sann/ros_ws/build/Open3D/curl/src
+url(s)=https://github.com/isl-org/open3d_downloads/releases/download/boringssl-bin/curl_7.88.0_linux_x86_64.tar.bz2
+hash=SHA256=745f33ad65c550e1885a5341945a8a952123565cfb83b477433f3784857ec0ea
+      no_extract=
+

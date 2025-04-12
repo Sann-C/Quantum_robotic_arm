@@ -1,0 +1,199 @@
+[0.127s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list']
+[0.127s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=False, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x74d02ac66170>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x74d02ad6e350>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x74d02ad6e350>>, mixin_verb=('list',))
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.266s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.267s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.267s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sann/ros_ws/src'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.284s] ERROR:colcon.colcon_core.package_identification:Exception in package identification extension 'cmake' in '.': Failed to extract project name from 'CMakeLists.txt'
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/package_identification/__init__.py", line 144, in _identify
+    retval = extension.identify(_reused_descriptor_instance)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/package_identification/cmake.py", line 36, in identify
+    raise RuntimeError(
+RuntimeError: Failed to extract project name from 'CMakeLists.txt'
+
+[0.284s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_Client_Library) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_Client_Library) by extension 'ignore'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_Client_Library) by extension 'ignore_ament_install'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_Client_Library) by extensions ['colcon_pkg']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_Client_Library) by extension 'colcon_pkg'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_Client_Library) by extensions ['colcon_meta']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_Client_Library) by extension 'colcon_meta'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_Client_Library) by extensions ['ros']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_Client_Library) by extension 'ros'
+[0.288s] DEBUG:colcon.colcon_core.package_identification:Package 'Universal_Robots_Client_Library' with type 'ros.cmake' and name 'ur_client_library'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver) by extension 'ignore'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver) by extension 'ignore_ament_install'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver) by extensions ['colcon_pkg']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver) by extension 'colcon_pkg'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver) by extensions ['colcon_meta']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver) by extension 'colcon_meta'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver) by extensions ['ros']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver) by extension 'ros'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver) by extensions ['cmake', 'python']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver) by extension 'cmake'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver) by extension 'python'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver) by extensions ['python_setup_py']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver) by extension 'python_setup_py'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur) by extensions ['ignore', 'ignore_ament_install']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur) by extension 'ignore'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur) by extension 'ignore_ament_install'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur) by extensions ['colcon_pkg']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur) by extension 'colcon_pkg'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur) by extensions ['colcon_meta']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur) by extension 'colcon_meta'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur) by extensions ['ros']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur) by extension 'ros'
+[0.290s] DEBUG:colcon.colcon_core.package_identification:Package 'Universal_Robots_ROS2_Driver/ur' with type 'ros.ament_cmake' and name 'ur'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ignore'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ignore_ament_install'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['colcon_pkg']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_bringup) by extension 'colcon_pkg'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['colcon_meta']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_bringup) by extension 'colcon_meta'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['ros']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ros'
+[0.290s] DEBUG:colcon.colcon_core.package_identification:Package 'Universal_Robots_ROS2_Driver/ur_bringup' with type 'ros.ament_cmake' and name 'ur_bringup'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ignore_ament_install'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['colcon_pkg']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_calibration) by extension 'colcon_pkg'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['colcon_meta']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_calibration) by extension 'colcon_meta'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['ros']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ros'
+[0.291s] DEBUG:colcon.colcon_core.package_identification:Package 'Universal_Robots_ROS2_Driver/ur_calibration' with type 'ros.ament_cmake' and name 'ur_calibration'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ignore'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ignore_ament_install'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['colcon_pkg']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_controllers) by extension 'colcon_pkg'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['colcon_meta']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_controllers) by extension 'colcon_meta'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['ros']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ros'
+[0.293s] DEBUG:colcon.colcon_core.package_identification:Package 'Universal_Robots_ROS2_Driver/ur_controllers' with type 'ros.ament_cmake' and name 'ur_controllers'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ignore'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ignore_ament_install'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['colcon_pkg']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'colcon_pkg'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['colcon_meta']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'colcon_meta'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['ros']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ros'
+[0.294s] DEBUG:colcon.colcon_core.package_identification:Package 'Universal_Robots_ROS2_Driver/ur_dashboard_msgs' with type 'ros.ament_cmake' and name 'ur_dashboard_msgs'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ignore_ament_install'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['colcon_pkg']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'colcon_pkg'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['ros']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ros'
+[0.295s] DEBUG:colcon.colcon_core.package_identification:Package 'Universal_Robots_ROS2_Driver/ur_moveit_config' with type 'ros.ament_cmake' and name 'ur_moveit_config'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ignore_ament_install'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['colcon_pkg']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'colcon_pkg'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['colcon_meta']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'colcon_meta'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['ros']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ros'
+[0.297s] DEBUG:colcon.colcon_core.package_identification:Package 'Universal_Robots_ROS2_Driver/ur_robot_driver' with type 'ros.ament_cmake' and name 'ur_robot_driver'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(benchmark) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(benchmark) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(benchmark) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(benchmark) by extensions ['colcon_pkg']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(benchmark) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(benchmark) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(benchmark) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(benchmark) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(benchmark) by extension 'ros'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(benchmark) by extensions ['cmake', 'python']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(benchmark) by extension 'cmake'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(benchmark) by extension 'python'
+[0.297s] DEBUG:colcon.colcon_core.package_identification:Package 'benchmark' with type 'cmake' and name 'my_robot_controller'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extensions ['colcon_pkg']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(my_robot_controller) by extension 'ros'
+[0.298s] DEBUG:colcon.colcon_core.package_identification:Package 'my_robot_controller' with type 'ros.catkin' and name 'my_robot_controller'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(quantum_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(quantum_bridge) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(quantum_bridge) by extension 'ignore_ament_install'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(quantum_bridge) by extensions ['colcon_pkg']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(quantum_bridge) by extension 'colcon_pkg'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(quantum_bridge) by extensions ['colcon_meta']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(quantum_bridge) by extension 'colcon_meta'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(quantum_bridge) by extensions ['ros']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(quantum_bridge) by extension 'ros'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(quantum_bridge) by extensions ['cmake', 'python']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(quantum_bridge) by extension 'cmake'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(quantum_bridge) by extension 'python'
+[0.299s] DEBUG:colcon.colcon_core.package_identification:Package 'quantum_bridge' with type 'cmake' and name 'my_robot_controller'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(rl_control) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(rl_control) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(rl_control) by extension 'ignore_ament_install'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(rl_control) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(rl_control) by extension 'colcon_pkg'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(rl_control) by extensions ['colcon_meta']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(rl_control) by extension 'colcon_meta'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(rl_control) by extensions ['ros']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(rl_control) by extension 'ros'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(rl_control) by extensions ['cmake', 'python']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(rl_control) by extension 'cmake'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(rl_control) by extension 'python'
+[0.299s] DEBUG:colcon.colcon_core.package_identification:Package 'rl_control' with type 'cmake' and name 'my_robot_controller'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(vision_processing) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(vision_processing) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(vision_processing) by extension 'ignore_ament_install'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(vision_processing) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(vision_processing) by extension 'colcon_pkg'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(vision_processing) by extensions ['colcon_meta']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(vision_processing) by extension 'colcon_meta'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(vision_processing) by extensions ['ros']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(vision_processing) by extension 'ros'
+[0.300s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'vision_processing': Error(s) in package 'vision_processing/package.xml':
+The manifest contains invalid XML:
+mismatched tag: line 7, column 51
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(vision_processing) by extensions ['cmake', 'python']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(vision_processing) by extension 'cmake'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(vision_processing) by extension 'python'
+[0.300s] DEBUG:colcon.colcon_core.package_identification:Package 'vision_processing' with type 'cmake' and name 'vision_processing'
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.323s] INFO:colcon.colcon_metadata.metadata.colcon_pkg:Updating descriptor of package 'Universal_Robots_Client_Library' from colcon.pkg: {'hooks': ['share/ur_client_library/hook/ament_prefix_path.dsv', 'share/ur_client_library/hook/ros_package_path.dsv']}

@@ -1,0 +1,52 @@
+[0.021s] Invoking command in '/home/sann/ros_ws/build/ur_dashboard_msgs': CMAKE_PREFIX_PATH=/home/sann/ros_ws/install/ur_client_library:/opt/ros/humble:/home/sann/ros_ws/install/my_robot_controller CONDA_PROMPT_MODIFIER=(base) /home/sann/anaconda3/bin/cmake /home/sann/ros_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sann/ros_ws/install/ur_dashboard_msgs
+[0.174s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.175s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.175s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.175s]   CMake.
+[0.175s] 
+[0.175s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.175s]   to tell CMake that the project requires at least <min> but has been updated
+[0.175s]   to work with policies introduced by <max> or earlier.
+[0.175s] 
+[0.175s] [0m
+[0.226s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.233s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.233s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.234s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.258s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.278s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[0.430s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.430s]   execute_process(/home/sann/anaconda3/bin/python3 -m rosidl_adapter
+[0.430s]   --package-name ur_dashboard_msgs --arguments-file
+[0.431s]   /home/sann/ros_ws/build/ur_dashboard_msgs/rosidl_adapter__arguments__ur_dashboard_msgs.json
+[0.431s]   --output-dir
+[0.431s]   /home/sann/ros_ws/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs
+[0.431s]   --output-file
+[0.431s]   /home/sann/ros_ws/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs.idls)
+[0.431s]   returned error code 1:
+[0.431s] 
+[0.431s]   Traceback (most recent call last):
+[0.431s] 
+[0.431s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[0.431s]     File "<frozen runpy>", line 88, in _run_code
+[0.431s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.431s]       sys.exit(main())
+[0.431s]                ^^^^^^
+[0.431s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.431s]       abs_idl_file = convert_to_idl(
+[0.431s]                      ^^^^^^^^^^^^^^^
+[0.431s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 18, in convert_to_idl
+[0.431s]       from rosidl_adapter.msg import convert_msg_to_idl
+[0.431s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 16, in <module>
+[0.431s]       from rosidl_adapter.resource import expand_template
+[0.431s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>
+[0.431s]       import em
+[0.431s] 
+[0.431s]   ModuleNotFoundError: No module named 'em'
+[0.431s] 
+[0.431s] Call Stack (most recent call first):
+[0.431s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.431s]   CMakeLists.txt:32 (rosidl_generate_interfaces)
+[0.431s] 
+[0.431s] [0m
+[0.431s] -- Configuring incomplete, errors occurred!

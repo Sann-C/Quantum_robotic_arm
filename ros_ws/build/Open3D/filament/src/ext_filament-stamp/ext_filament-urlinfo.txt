@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/sann/ros_ws/build/Open3D/filament/src/ext_filament-stamp/download-ext_filament.cmake;COMMAND;/home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/sann/ros_ws/build/Open3D/filament/src/ext_filament-stamp/verify-ext_filament.cmake;COMMAND;/home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/sann/ros_ws/build/Open3D/filament/src/ext_filament-stamp/extract-ext_filament.cmake
+source_dir=/home/sann/ros_ws/build/Open3D/filament/src/ext_filament
+work_dir=/home/sann/ros_ws/build/Open3D/filament/src
+url(s)=https://github.com/isl-org/open3d_downloads/releases/download/filament/filament-v1.9.19-linux-20.04.tgz
+hash=SHA256=c756fd76f5c6a40ca554f8c3cca424354a2a22ea6fce3c8ea893d4c4aa39514c
+      no_extract=
+

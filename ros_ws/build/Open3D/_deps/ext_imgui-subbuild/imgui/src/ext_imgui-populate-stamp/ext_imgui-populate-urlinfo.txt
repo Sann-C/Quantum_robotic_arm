@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/sann/ros_ws/build/Open3D/_deps/ext_imgui-subbuild/imgui/src/ext_imgui-populate-stamp/download-ext_imgui-populate.cmake;COMMAND;/home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/sann/ros_ws/build/Open3D/_deps/ext_imgui-subbuild/imgui/src/ext_imgui-populate-stamp/verify-ext_imgui-populate.cmake;COMMAND;/home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/sann/ros_ws/build/Open3D/_deps/ext_imgui-subbuild/imgui/src/ext_imgui-populate-stamp/extract-ext_imgui-populate.cmake
+source_dir=/home/sann/ros_ws/build/Open3D/_deps/ext_imgui-src
+work_dir=/home/sann/ros_ws/build/Open3D/_deps
+url(s)=https://github.com/ocornut/imgui/archive/refs/tags/v1.88.tar.gz
+hash=SHA256=9f14c788aee15b777051e48f868c5d4d959bd679fc5050e3d2a29de80d8fd32e
+      no_extract=
+

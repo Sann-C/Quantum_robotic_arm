@@ -1,0 +1,162 @@
+-- Setting build type to Release as none was specified.
+-- CMAKE_BUILD_TYPE is set to Release.
+-- Downloading third-party dependencies to /home/sann/ros_ws/Open3D/3rdparty_downloads
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+[0mCMake Deprecation Warning at CMakeLists.txt:200 (cmake_policy):
+  The OLD behavior for policy CMP0072 will be removed from a future version
+  of CMake.
+
+  The cmake-policies(7) manual explains that the OLD behaviors of all
+  policies are deprecated and that a policy should be set to OLD only under
+  specific short-term circumstances.  Projects should be ported to the NEW
+  behavior and not rely on setting a policy to OLD.
+
+[0m
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Open3D 0.19.0+4356c1727
+-- Found Python3: /home/sann/anaconda3/bin/python3.11 (found suitable version "3.11.5", minimum required is "3.6") found components: Interpreter Development Development.Module Development.Embed
+-- Fetching ISPC compiler
+-- Building with detected instruction sets
+-- Using ISPC instruction sets: avx2-i32x8
+-- The ISPC compiler identification is Intel 1.16.1
+-- Detecting ISPC compiler ABI info
+-- Detecting ISPC compiler ABI info - done
+-- Check for working ISPC compiler: /home/sann/ros_ws/build/Open3D/_deps/ext_ispc-src/bin/ispc - skipped
+-- Performing Test FLAG_fstack_protector_strong
+-- Performing Test FLAG_fstack_protector_strong - Success
+-- Performing Test FLAG_Wformat
+-- Performing Test FLAG_Wformat - Success
+-- Performing Test FLAG_Wformat_security
+-- Performing Test FLAG_Wformat_security - Success
+-- Performing Test FLAG_Wl__z_noexecstack
+-- Performing Test FLAG_Wl__z_noexecstack - Success
+-- Performing Test FLAG_Wl__z_relro__z_now
+-- Performing Test FLAG_Wl__z_relro__z_now - Success
+-- Performing Test FLAG_pie
+-- Performing Test FLAG_pie - Success
+-- Performing Test FLAG____CONFIG_Release__LINKER___strip_debug_
+-- Performing Test FLAG____CONFIG_Release__LINKER___strip_debug_ - Success
+-- Using security hardening compiler flags: $<$<COMPILE_LANGUAGE:CUDA>:-Xcompiler=-fstack-protector-strong,-Wformat,-Wformat-security>;$<$<COMPILE_LANGUAGE:CXX>:-fstack-protector-strong;-Wformat;-Wformat-security>
+-- Using security hardening linker flags: $<$<COMPILE_LANGUAGE:CUDA>:-Xcompiler=-Wl,-z,noexecstack,-Wl,-z,relro,-z,now,$<$<STREQUAL:$<TARGET_PROPERTY:TYPE>,EXECUTABLE>:-pie>,$<$<CONFIG:Release>:LINKER:--strip-debug>>;$<$<COMPILE_LANGUAGE:CXX>:-Wl,-z,noexecstack;-Wl,-z,relro,-z,now;$<$<STREQUAL:$<TARGET_PROPERTY:TYPE>,EXECUTABLE>:-pie>;$<$<CONFIG:Release>:LINKER:--strip-debug>>
+-- Using security hardening compiler definitions: _FORTIFY_SOURCE=2
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Using installed third-party library 3rdparty_threads 
+-- Found OpenMP_C: -fopenmp (found version "4.5")
+-- Found OpenMP_CXX: -fopenmp (found version "4.5")
+-- Found OpenMP: TRUE (found version "4.5")
+-- Using installed third-party library 3rdparty_openmp 
+-- Building with OpenMP
+-- Using installed third-party library 3rdparty_x11 
+-- Setting RPATH for 3rdparty_glew
+-- Building third-party library JPEG from source
+-- Looking for a ASM_NASM compiler
+-- Looking for a ASM_NASM compiler - NOTFOUND
+-- NASM assembler not found - libjpeg-turbo performance may suffer
+-- libturbojpeg: WITH_CRT_DLL=OFF
+-- Setting RPATH for 3rdparty_liblzf
+-- Setting RPATH for 3rdparty_rply
+-- Setting RPATH for 3rdparty_tinyfiledialogs
+[33mCMake Warning (dev) at /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:1953 (message):
+  Calling FetchContent_Populate(ext_qhull) is deprecated, call
+  FetchContent_MakeAvailable(ext_qhull) instead.  Policy CMP0169 can be set
+  to OLD to allow FetchContent_Populate(ext_qhull) to be called directly for
+  now, but the ability to call it with declared details will be removed
+  completely in a future version.
+Call Stack (most recent call first):
+  3rdparty/qhull/qhull.cmake:13 (FetchContent_Populate)
+  3rdparty/find_dependencies.cmake:1026 (include)
+  CMakeLists.txt:534 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Setting RPATH for 3rdparty_qhull_r
+-- Setting RPATH for 3rdparty_qhullcpp
+[0mCMake Deprecation Warning at /home/sann/ros_ws/build/Open3D/_deps/ext_pybind11-src/CMakeLists.txt:13 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+-- pybind11 v2.13.1 
+-- Found PythonInterp: /home/sann/anaconda3/bin/python3.11 (found suitable version "3.11.5", minimum required is "3.7")
+-- Found PythonLibs: /home/sann/anaconda3/lib/libpython3.11.so
+-- Performing Test HAS_FLTO
+-- Performing Test HAS_FLTO - Success
+[33mCMake Warning (dev) at /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:1564 (cmake_parse_arguments):
+  The BUILD_COMMAND keyword was followed by an empty string or no value at
+  all.  Policy CMP0174 is not set, so cmake_parse_arguments() will unset the
+  ARG_BUILD_COMMAND variable rather than setting it to an empty string.
+Call Stack (most recent call first):
+  /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2145:EVAL:2 (__FetchContent_doPopulation)
+  /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2145 (cmake_language)
+  /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2384 (__FetchContent_Populate)
+  3rdparty/imgui/imgui.cmake:15 (FetchContent_MakeAvailable)
+  3rdparty/find_dependencies.cmake:1192 (include)
+  CMakeLists.txt:534 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:1564 (cmake_parse_arguments):
+  The CONFIGURE_COMMAND keyword was followed by an empty string or no value
+  at all.  Policy CMP0174 is not set, so cmake_parse_arguments() will unset
+  the ARG_CONFIGURE_COMMAND variable rather than setting it to an empty
+  string.
+Call Stack (most recent call first):
+  /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2145:EVAL:2 (__FetchContent_doPopulation)
+  /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2145 (cmake_language)
+  /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2384 (__FetchContent_Populate)
+  3rdparty/imgui/imgui.cmake:15 (FetchContent_MakeAvailable)
+  3rdparty/find_dependencies.cmake:1192 (include)
+  CMakeLists.txt:534 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) at /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:1564 (cmake_parse_arguments):
+  The INSTALL_COMMAND keyword was followed by an empty string or no value at
+  all.  Policy CMP0174 is not set, so cmake_parse_arguments() will unset the
+  ARG_INSTALL_COMMAND variable rather than setting it to an empty string.
+Call Stack (most recent call first):
+  /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2145:EVAL:2 (__FetchContent_doPopulation)
+  /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2145 (cmake_language)
+  /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2384 (__FetchContent_Populate)
+  3rdparty/imgui/imgui.cmake:15 (FetchContent_MakeAvailable)
+  3rdparty/find_dependencies.cmake:1192 (include)
+  CMakeLists.txt:534 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+-- Setting RPATH for 3rdparty_imgui
+-- Using prebuilt third-party library Filament
+-- GLIBC version 2.35-0 found: Using Open3D Filament binary.
+-- Filament is located at /home/sann/ros_ws/build/Open3D/filament/src/ext_filament
+-- Searching /usr/lib/llvm-[7..19]/lib/ for libc++ and libc++abi
+-- Clang C++ libraries not found. Searching other paths...
+-- Using CLANG_LIBDIR: /home/sann/ros_ws/Open3D
+[33mCMake Warning (dev) at 3rdparty/find_dependencies.cmake:1369 (file):
+  Given path:
+
+    CPPABI_LIBRARY-NOTFOUND
+
+  does not refer to an existing path on disk.
+Call Stack (most recent call first):
+  CMakeLists.txt:534 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[31mCMake Error at 3rdparty/find_dependencies.cmake:1381 (find_library):
+  Could not find CPP_LIBRARY using the following names: c++
+Call Stack (most recent call first):
+  CMakeLists.txt:534 (include)
+
+[0m
+-- Configuring incomplete, errors occurred!

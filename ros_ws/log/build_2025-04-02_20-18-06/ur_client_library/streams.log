@@ -1,0 +1,21 @@
+[0.016s] Invoking command in '/home/sann/ros_ws/build/ur_client_library': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/sann/anaconda3/bin/cmake /home/sann/ros_ws/src/Universal_Robots_Client_Library -DCMAKE_INSTALL_PREFIX=/home/sann/ros_ws/install/ur_client_library
+[0.105s] -- The C compiler identification is GNU 11.4.0
+[0.151s] -- The CXX compiler identification is GNU 11.4.0
+[0.157s] -- Detecting C compiler ABI info
+[0.201s] -- Detecting C compiler ABI info - done
+[0.212s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.212s] -- Detecting C compile features
+[0.212s] -- Detecting C compile features - done
+[0.221s] -- Detecting CXX compiler ABI info
+[0.273s] -- Detecting CXX compiler ABI info - done
+[0.288s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.288s] -- Detecting CXX compile features
+[0.288s] -- Detecting CXX compile features - done
+[0.293s] [0mur_client_library: You did not request a specific build type: selecting 'RelWithDebInfo'.[0m
+[0.294s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.345s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.345s] -- Found Threads: TRUE
+[0.345s] -- Building tests disabled.
+[0.348s] -- Configuring done (0.3s)
+[0.362s] -- Generating done (0.0s)
+[0.365s] -- Build files have been written to: /home/sann/ros_ws/build/ur_client_library

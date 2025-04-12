@@ -1,0 +1,163 @@
+[0.022s] Invoking command in '/home/sann/ros_ws/build/Open3D': CONDA_PROMPT_MODIFIER=(base) /home/sann/anaconda3/bin/cmake /home/sann/ros_ws/Open3D -DCMAKE_INSTALL_PREFIX=/home/sann/ros_ws/install/Open3D
+[0.184s] -- Setting build type to Release as none was specified.
+[0.184s] -- CMAKE_BUILD_TYPE is set to Release.
+[0.184s] -- Downloading third-party dependencies to /home/sann/ros_ws/Open3D/3rdparty_downloads
+[0.184s] -- The C compiler identification is GNU 11.4.0
+[0.184s] -- The CXX compiler identification is GNU 11.4.0
+[0.184s] -- Detecting C compiler ABI info
+[0.185s] [0mCMake Deprecation Warning at CMakeLists.txt:200 (cmake_policy):
+[0.185s]   The OLD behavior for policy CMP0072 will be removed from a future version
+[0.185s]   of CMake.
+[0.185s] 
+[0.185s]   The cmake-policies(7) manual explains that the OLD behaviors of all
+[0.185s]   policies are deprecated and that a policy should be set to OLD only under
+[0.185s]   specific short-term circumstances.  Projects should be ported to the NEW
+[0.185s]   behavior and not rely on setting a policy to OLD.
+[0.185s] 
+[0.185s] [0m
+[0.212s] -- Detecting C compiler ABI info - done
+[0.225s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.225s] -- Detecting C compile features
+[0.225s] -- Detecting C compile features - done
+[0.237s] -- Detecting CXX compiler ABI info
+[0.292s] -- Detecting CXX compiler ABI info - done
+[0.305s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.305s] -- Detecting CXX compile features
+[0.306s] -- Detecting CXX compile features - done
+[0.311s] -- Open3D 0.19.0+4356c1727
+[0.507s] -- Found Python3: /home/sann/anaconda3/bin/python3.11 (found suitable version "3.11.5", minimum required is "3.6") found components: Interpreter Development Development.Module Development.Embed
+[0.509s] -- Fetching ISPC compiler
+[4.049s] -- Building with detected instruction sets
+[4.049s] -- Using ISPC instruction sets: avx2-i32x8
+[4.257s] -- The ISPC compiler identification is Intel 1.16.1
+[4.260s] -- Detecting ISPC compiler ABI info
+[4.491s] -- Detecting ISPC compiler ABI info - done
+[4.493s] -- Check for working ISPC compiler: /home/sann/ros_ws/build/Open3D/_deps/ext_ispc-src/bin/ispc - skipped
+[4.495s] -- Performing Test FLAG_fstack_protector_strong
+[4.560s] -- Performing Test FLAG_fstack_protector_strong - Success
+[4.560s] -- Performing Test FLAG_Wformat
+[4.625s] -- Performing Test FLAG_Wformat - Success
+[4.625s] -- Performing Test FLAG_Wformat_security
+[4.695s] -- Performing Test FLAG_Wformat_security - Success
+[4.696s] -- Performing Test FLAG_Wl__z_noexecstack
+[4.771s] -- Performing Test FLAG_Wl__z_noexecstack - Success
+[4.772s] -- Performing Test FLAG_Wl__z_relro__z_now
+[4.833s] -- Performing Test FLAG_Wl__z_relro__z_now - Success
+[4.833s] -- Performing Test FLAG_pie
+[4.911s] -- Performing Test FLAG_pie - Success
+[4.912s] -- Performing Test FLAG____CONFIG_Release__LINKER___strip_debug_
+[4.981s] -- Performing Test FLAG____CONFIG_Release__LINKER___strip_debug_ - Success
+[4.981s] -- Using security hardening compiler flags: $<$<COMPILE_LANGUAGE:CUDA>:-Xcompiler=-fstack-protector-strong,-Wformat,-Wformat-security>;$<$<COMPILE_LANGUAGE:CXX>:-fstack-protector-strong;-Wformat;-Wformat-security>
+[4.981s] -- Using security hardening linker flags: $<$<COMPILE_LANGUAGE:CUDA>:-Xcompiler=-Wl,-z,noexecstack,-Wl,-z,relro,-z,now,$<$<STREQUAL:$<TARGET_PROPERTY:TYPE>,EXECUTABLE>:-pie>,$<$<CONFIG:Release>:LINKER:--strip-debug>>;$<$<COMPILE_LANGUAGE:CXX>:-Wl,-z,noexecstack;-Wl,-z,relro,-z,now;$<$<STREQUAL:$<TARGET_PROPERTY:TYPE>,EXECUTABLE>:-pie>;$<$<CONFIG:Release>:LINKER:--strip-debug>>
+[4.981s] -- Using security hardening compiler definitions: _FORTIFY_SOURCE=2
+[4.992s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.060s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.061s] -- Found Threads: TRUE
+[5.061s] -- Using installed third-party library 3rdparty_threads 
+[5.279s] -- Found OpenMP_C: -fopenmp (found version "4.5")
+[5.351s] -- Found OpenMP_CXX: -fopenmp (found version "4.5")
+[5.351s] -- Found OpenMP: TRUE (found version "4.5")
+[5.351s] -- Using installed third-party library 3rdparty_openmp 
+[5.351s] -- Building with OpenMP
+[5.846s] -- Using installed third-party library 3rdparty_x11 
+[5.874s] -- Setting RPATH for 3rdparty_glew
+[5.887s] -- Building third-party library JPEG from source
+[5.890s] -- Looking for a ASM_NASM compiler
+[5.920s] -- Looking for a ASM_NASM compiler - NOTFOUND
+[5.921s] -- NASM assembler not found - libjpeg-turbo performance may suffer
+[5.921s] -- libturbojpeg: WITH_CRT_DLL=OFF
+[5.953s] -- Setting RPATH for 3rdparty_liblzf
+[6.001s] -- Setting RPATH for 3rdparty_rply
+[6.001s] -- Setting RPATH for 3rdparty_tinyfiledialogs
+[6.027s] [33mCMake Warning (dev) at /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:1953 (message):
+[6.027s]   Calling FetchContent_Populate(ext_qhull) is deprecated, call
+[6.027s]   FetchContent_MakeAvailable(ext_qhull) instead.  Policy CMP0169 can be set
+[6.028s]   to OLD to allow FetchContent_Populate(ext_qhull) to be called directly for
+[6.028s]   now, but the ability to call it with declared details will be removed
+[6.028s]   completely in a future version.
+[6.028s] Call Stack (most recent call first):
+[6.028s]   3rdparty/qhull/qhull.cmake:13 (FetchContent_Populate)
+[6.028s]   3rdparty/find_dependencies.cmake:1026 (include)
+[6.028s]   CMakeLists.txt:534 (include)
+[6.028s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[6.028s] [0m
+[6.213s] -- Setting RPATH for 3rdparty_qhull_r
+[6.213s] -- Setting RPATH for 3rdparty_qhullcpp
+[6.421s] [0mCMake Deprecation Warning at /home/sann/ros_ws/build/Open3D/_deps/ext_pybind11-src/CMakeLists.txt:13 (cmake_minimum_required):
+[6.421s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[6.421s]   CMake.
+[6.421s] 
+[6.421s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[6.421s]   to tell CMake that the project requires at least <min> but has been updated
+[6.421s]   to work with policies introduced by <max> or earlier.
+[6.421s] 
+[6.421s] [0m
+[6.427s] -- pybind11 v2.13.1 
+[6.446s] -- Found PythonInterp: /home/sann/anaconda3/bin/python3.11 (found suitable version "3.11.5", minimum required is "3.7")
+[6.468s] -- Found PythonLibs: /home/sann/anaconda3/lib/libpython3.11.so
+[6.469s] -- Performing Test HAS_FLTO
+[6.574s] -- Performing Test HAS_FLTO - Success
+[6.594s] [33mCMake Warning (dev) at /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:1564 (cmake_parse_arguments):
+[6.594s]   The BUILD_COMMAND keyword was followed by an empty string or no value at
+[6.594s]   all.  Policy CMP0174 is not set, so cmake_parse_arguments() will unset the
+[6.594s]   ARG_BUILD_COMMAND variable rather than setting it to an empty string.
+[6.594s] Call Stack (most recent call first):
+[6.594s]   /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2145:EVAL:2 (__FetchContent_doPopulation)
+[6.594s]   /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2145 (cmake_language)
+[6.594s]   /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2384 (__FetchContent_Populate)
+[6.594s]   3rdparty/imgui/imgui.cmake:15 (FetchContent_MakeAvailable)
+[6.594s]   3rdparty/find_dependencies.cmake:1192 (include)
+[6.594s]   CMakeLists.txt:534 (include)
+[6.594s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[6.594s] [0m
+[6.594s] [33mCMake Warning (dev) at /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:1564 (cmake_parse_arguments):
+[6.594s]   The CONFIGURE_COMMAND keyword was followed by an empty string or no value
+[6.594s]   at all.  Policy CMP0174 is not set, so cmake_parse_arguments() will unset
+[6.594s]   the ARG_CONFIGURE_COMMAND variable rather than setting it to an empty
+[6.594s]   string.
+[6.595s] Call Stack (most recent call first):
+[6.595s]   /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2145:EVAL:2 (__FetchContent_doPopulation)
+[6.595s]   /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2145 (cmake_language)
+[6.595s]   /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2384 (__FetchContent_Populate)
+[6.595s]   3rdparty/imgui/imgui.cmake:15 (FetchContent_MakeAvailable)
+[6.595s]   3rdparty/find_dependencies.cmake:1192 (include)
+[6.595s]   CMakeLists.txt:534 (include)
+[6.595s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[6.595s] [0m
+[6.595s] [33mCMake Warning (dev) at /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:1564 (cmake_parse_arguments):
+[6.595s]   The INSTALL_COMMAND keyword was followed by an empty string or no value at
+[6.595s]   all.  Policy CMP0174 is not set, so cmake_parse_arguments() will unset the
+[6.595s]   ARG_INSTALL_COMMAND variable rather than setting it to an empty string.
+[6.595s] Call Stack (most recent call first):
+[6.595s]   /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2145:EVAL:2 (__FetchContent_doPopulation)
+[6.595s]   /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2145 (cmake_language)
+[6.595s]   /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2384 (__FetchContent_Populate)
+[6.595s]   3rdparty/imgui/imgui.cmake:15 (FetchContent_MakeAvailable)
+[6.595s]   3rdparty/find_dependencies.cmake:1192 (include)
+[6.595s]   CMakeLists.txt:534 (include)
+[6.595s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[6.595s] [0m
+[6.781s] -- Setting RPATH for 3rdparty_imgui
+[6.781s] -- Using prebuilt third-party library Filament
+[6.789s] -- GLIBC version 2.35-0 found: Using Open3D Filament binary.
+[6.802s] -- Filament is located at /home/sann/ros_ws/build/Open3D/filament/src/ext_filament
+[6.802s] -- Searching /usr/lib/llvm-[7..19]/lib/ for libc++ and libc++abi
+[6.803s] -- Clang C++ libraries not found. Searching other paths...
+[6.807s] -- Using CLANG_LIBDIR: /home/sann/ros_ws/Open3D
+[6.807s] [33mCMake Warning (dev) at 3rdparty/find_dependencies.cmake:1369 (file):
+[6.807s]   Given path:
+[6.807s] 
+[6.807s]     CPPABI_LIBRARY-NOTFOUND
+[6.807s] 
+[6.807s]   does not refer to an existing path on disk.
+[6.807s] Call Stack (most recent call first):
+[6.807s]   CMakeLists.txt:534 (include)
+[6.807s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[6.807s] [0m
+[6.807s] [31mCMake Error at 3rdparty/find_dependencies.cmake:1381 (find_library):
+[6.807s]   Could not find CPP_LIBRARY using the following names: c++
+[6.807s] Call Stack (most recent call first):
+[6.807s]   CMakeLists.txt:534 (include)
+[6.807s] 
+[6.807s] [0m
+[6.807s] -- Configuring incomplete, errors occurred!

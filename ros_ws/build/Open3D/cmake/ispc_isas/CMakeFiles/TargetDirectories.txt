@@ -1,0 +1,3 @@
+/home/sann/ros_ws/build/Open3D/cmake/ispc_isas/CMakeFiles/ispc_isas.dir
+/home/sann/ros_ws/build/Open3D/cmake/ispc_isas/CMakeFiles/edit_cache.dir
+/home/sann/ros_ws/build/Open3D/cmake/ispc_isas/CMakeFiles/rebuild_cache.dir

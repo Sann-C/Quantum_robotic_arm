@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/sann/ros_ws/build/ur_client_library/cmake_install.cmake",
+		"/home/sann/ros_ws/build/ur_client_library/examples/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

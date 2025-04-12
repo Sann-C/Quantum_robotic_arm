@@ -1,0 +1,19 @@
+[100%] Built target my_node
+-- Install configuration: ""
+-- Installing: /home/sann/ros_ws/install/my_robot_controller/lib/my_robot_controller/my_node
+-- Set non-toolchain portion of runtime path of "/home/sann/ros_ws/install/my_robot_controller/lib/my_robot_controller/my_node" to ""
+-- Installing: /home/sann/ros_ws/install/my_robot_controller/share/ament_index/resource_index/package_run_dependencies/my_robot_controller
+-- Installing: /home/sann/ros_ws/install/my_robot_controller/share/ament_index/resource_index/parent_prefix_path/my_robot_controller
+-- Installing: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/environment/ament_prefix_path.sh
+-- Installing: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/environment/ament_prefix_path.dsv
+-- Installing: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/environment/path.sh
+-- Installing: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/environment/path.dsv
+-- Installing: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/local_setup.bash
+-- Installing: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/local_setup.sh
+-- Installing: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/local_setup.zsh
+-- Installing: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/local_setup.dsv
+-- Installing: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/package.dsv
+-- Installing: /home/sann/ros_ws/install/my_robot_controller/share/ament_index/resource_index/packages/my_robot_controller
+-- Installing: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/cmake/my_robot_controllerConfig.cmake
+-- Installing: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/cmake/my_robot_controllerConfig-version.cmake
+-- Installing: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/package.xml

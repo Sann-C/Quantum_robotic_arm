@@ -1,0 +1,4 @@
+Invoking command in '/home/sann/ros_ws/build/ur_client_library': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/sann/anaconda3/bin/cmake --build /home/sann/ros_ws/build/ur_client_library -- -j28 -l28
+Invoked command in '/home/sann/ros_ws/build/ur_client_library' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/sann/anaconda3/bin/cmake --build /home/sann/ros_ws/build/ur_client_library -- -j28 -l28
+Invoking command in '/home/sann/ros_ws/build/ur_client_library': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/sann/anaconda3/bin/cmake --install /home/sann/ros_ws/build/ur_client_library
+Invoked command in '/home/sann/ros_ws/build/ur_client_library' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/sann/anaconda3/bin/cmake --install /home/sann/ros_ws/build/ur_client_library

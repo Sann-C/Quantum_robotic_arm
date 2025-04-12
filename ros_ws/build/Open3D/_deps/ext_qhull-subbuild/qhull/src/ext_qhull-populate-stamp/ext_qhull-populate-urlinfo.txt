@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/sann/ros_ws/build/Open3D/_deps/ext_qhull-subbuild/qhull/src/ext_qhull-populate-stamp/download-ext_qhull-populate.cmake;COMMAND;/home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/sann/ros_ws/build/Open3D/_deps/ext_qhull-subbuild/qhull/src/ext_qhull-populate-stamp/verify-ext_qhull-populate.cmake;COMMAND;/home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/sann/ros_ws/build/Open3D/_deps/ext_qhull-subbuild/qhull/src/ext_qhull-populate-stamp/extract-ext_qhull-populate.cmake
+source_dir=/home/sann/ros_ws/build/Open3D/_deps/ext_qhull-src
+work_dir=/home/sann/ros_ws/build/Open3D/_deps
+url(s)=https://github.com/qhull/qhull/archive/refs/tags/v8.0.2.tar.gz
+hash=SHA256=8774e9a12c70b0180b95d6b0b563c5aa4bea8d5960c15e18ae3b6d2521d64f8b
+      no_extract=
+

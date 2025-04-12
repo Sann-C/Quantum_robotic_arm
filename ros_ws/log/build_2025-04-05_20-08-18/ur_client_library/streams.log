@@ -1,0 +1,14 @@
+[0.019s] Invoking command in '/home/sann/ros_ws/build/ur_client_library': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/sann/anaconda3/bin/cmake --build /home/sann/ros_ws/build/ur_client_library -- -j28 -l28
+[0.145s] [ 60%] Built target urcl
+[0.156s] [ 63%] Built target primary_pipeline_example
+[0.157s] [ 67%] Built target primary_pipeline_calibration_example
+[0.157s] [ 70%] Built target dashboard_example
+[0.157s] [ 75%] Built target driver_example
+[0.158s] [ 77%] Built target tool_contact_example
+[0.158s] [ 80%] Built target spline_example
+[0.159s] [ 85%] Built target force_mode_example
+[0.159s] [ 86%] Built target rtde_client_example
+[0.159s] [ 90%] Built target script_sender_example
+[0.160s] [ 93%] Built target instruction_executor
+[0.162s] [100%] Built target freedrive_example
+[0.162s] [100%] Built target trajectory_point_interface_example

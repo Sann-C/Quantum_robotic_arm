@@ -1,0 +1,18 @@
+[0.017s] Invoking command in '/home/sann/ros_ws/build/custom_interfaces': CONDA_PROMPT_MODIFIER=(base) /home/sann/anaconda3/bin/cmake /home/sann/ros_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/sann/ros_ws/install/custom_interfaces
+[0.172s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.172s] -- Found ament_cmake_core: 1.3.11 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[0.219s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.222s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.250s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.270s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[0.299s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.324s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.324s]   rosidl_generate_interfaces() the passed file
+[0.324s]   'action/FollowJointTrajectory.action' doesn't exist relative to the
+[0.324s]   CMAKE_CURRENT_SOURCE_DIR '/home/sann/ros_ws/src/custom_interfaces'
+[0.324s] Call Stack (most recent call first):
+[0.324s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[0.324s] 
+[0.324s] [0m
+[0.324s] -- Configuring incomplete, errors occurred!
+[0.327s] Invoked command in '/home/sann/ros_ws/build/custom_interfaces' returned '1': CONDA_PROMPT_MODIFIER=(base) /home/sann/anaconda3/bin/cmake /home/sann/ros_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/sann/ros_ws/install/custom_interfaces

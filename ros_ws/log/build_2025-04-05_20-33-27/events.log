@@ -1,0 +1,569 @@
+[0.000000] (-) TimerEvent: {}
+[0.000119] (Open3D) JobQueued: {'identifier': 'Open3D', 'dependencies': OrderedDict()}
+[0.000148] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.000167] (my_robot_controller) JobQueued: {'identifier': 'my_robot_controller', 'dependencies': OrderedDict()}
+[0.000185] (rl_control) JobQueued: {'identifier': 'rl_control', 'dependencies': OrderedDict()}
+[0.000202] (ur_client_library) JobQueued: {'identifier': 'ur_client_library', 'dependencies': OrderedDict()}
+[0.000227] (ur_dashboard_msgs) JobQueued: {'identifier': 'ur_dashboard_msgs', 'dependencies': OrderedDict()}
+[0.000248] (ur_moveit_config) JobQueued: {'identifier': 'ur_moveit_config', 'dependencies': OrderedDict()}
+[0.000264] (vision_processing) JobQueued: {'identifier': 'vision_processing', 'dependencies': OrderedDict()}
+[0.000280] (benchmark) JobQueued: {'identifier': 'benchmark', 'dependencies': OrderedDict([('custom_interfaces', '/home/sann/ros_ws/install/custom_interfaces')])}
+[0.000303] (quantum_bridge) JobQueued: {'identifier': 'quantum_bridge', 'dependencies': OrderedDict([('custom_interfaces', '/home/sann/ros_ws/install/custom_interfaces')])}
+[0.000322] (ur_controllers) JobQueued: {'identifier': 'ur_controllers', 'dependencies': OrderedDict([('ur_dashboard_msgs', '/home/sann/ros_ws/install/ur_dashboard_msgs')])}
+[0.000340] (ur_bringup) JobQueued: {'identifier': 'ur_bringup', 'dependencies': OrderedDict([('ur_dashboard_msgs', '/home/sann/ros_ws/install/ur_dashboard_msgs'), ('ur_controllers', '/home/sann/ros_ws/install/ur_controllers')])}
+[0.000359] (ur_robot_driver) JobQueued: {'identifier': 'ur_robot_driver', 'dependencies': OrderedDict([('ur_client_library', '/home/sann/ros_ws/install/ur_client_library'), ('ur_dashboard_msgs', '/home/sann/ros_ws/install/ur_dashboard_msgs'), ('ur_controllers', '/home/sann/ros_ws/install/ur_controllers')])}
+[0.000378] (ur_calibration) JobQueued: {'identifier': 'ur_calibration', 'dependencies': OrderedDict([('ur_client_library', '/home/sann/ros_ws/install/ur_client_library'), ('ur_dashboard_msgs', '/home/sann/ros_ws/install/ur_dashboard_msgs'), ('ur_controllers', '/home/sann/ros_ws/install/ur_controllers'), ('ur_robot_driver', '/home/sann/ros_ws/install/ur_robot_driver')])}
+[0.000397] (ur) JobQueued: {'identifier': 'ur', 'dependencies': OrderedDict([('ur_client_library', '/home/sann/ros_ws/install/ur_client_library'), ('ur_dashboard_msgs', '/home/sann/ros_ws/install/ur_dashboard_msgs'), ('ur_moveit_config', '/home/sann/ros_ws/install/ur_moveit_config'), ('ur_controllers', '/home/sann/ros_ws/install/ur_controllers'), ('ur_robot_driver', '/home/sann/ros_ws/install/ur_robot_driver'), ('ur_calibration', '/home/sann/ros_ws/install/ur_calibration')])}
+[0.000419] (ur_dashboard_msgs) JobStarted: {'identifier': 'ur_dashboard_msgs'}
+[0.005699] (ur_client_library) JobStarted: {'identifier': 'ur_client_library'}
+[0.007779] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.010217] (ur_moveit_config) JobStarted: {'identifier': 'ur_moveit_config'}
+[0.012434] (Open3D) JobStarted: {'identifier': 'Open3D'}
+[0.014462] (my_robot_controller) JobStarted: {'identifier': 'my_robot_controller'}
+[0.016878] (rl_control) JobStarted: {'identifier': 'rl_control'}
+[0.020871] (vision_processing) JobStarted: {'identifier': 'vision_processing'}
+[0.024223] (ur_dashboard_msgs) JobProgress: {'identifier': 'ur_dashboard_msgs', 'progress': 'cmake'}
+[0.025052] (ur_dashboard_msgs) Command: {'cmd': ['/home/sann/anaconda3/bin/cmake', '/home/sann/ros_ws/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/sann/ros_ws/install/ur_dashboard_msgs'], 'cwd': '/home/sann/ros_ws/build/ur_dashboard_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'sann'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sann'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/sann/ros_ws/Open3D/build'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2164'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sann'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sann'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/sann/anaconda3/bin:/home/sann/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sann:@/tmp/.ICE-unix/1794,unix/sann:/tmp/.ICE-unix/1794'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/386eef51_bb95_4923_a026_4bafa0b0ab89'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/sann/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('CMAKE_LIBRARY_PATH', '/usr/lib:/usr/local/lib:'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sann/ros_ws/build/ur_dashboard_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/sann/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('CONDA_PREFIX', '/home/sann/anaconda3'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/path/to/open3d/cmake:/usr/lib/python3/dist-packages/open3d/cmake:/home/sann/ros_ws/install/ur_moveit_config:/home/sann/ros_ws/install/ur_client_library:/opt/ros/humble:/home/sann/ros_ws/install/my_robot_controller')]), 'shell': False}
+[0.026939] (ur_client_library) JobProgress: {'identifier': 'ur_client_library', 'progress': 'cmake'}
+[0.028081] (ur_client_library) JobProgress: {'identifier': 'ur_client_library', 'progress': 'build'}
+[0.028122] (ur_client_library) Command: {'cmd': ['/home/sann/anaconda3/bin/cmake', '--build', '/home/sann/ros_ws/build/ur_client_library', '--', '-j28', '-l28'], 'cwd': '/home/sann/ros_ws/build/ur_client_library', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'sann'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sann'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/sann/ros_ws/Open3D/build'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2164'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sann'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sann'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/sann/anaconda3/bin:/home/sann/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sann:@/tmp/.ICE-unix/1794,unix/sann:/tmp/.ICE-unix/1794'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/386eef51_bb95_4923_a026_4bafa0b0ab89'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/sann/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('CMAKE_LIBRARY_PATH', '/usr/lib:/usr/local/lib:'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sann/ros_ws/build/ur_client_library'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/sann/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('CONDA_PREFIX', '/home/sann/anaconda3'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/path/to/open3d/cmake:/usr/lib/python3/dist-packages/open3d/cmake:/home/sann/ros_ws/install/ur_moveit_config:/home/sann/ros_ws/install/ur_client_library:/opt/ros/humble:/home/sann/ros_ws/install/my_robot_controller')]), 'shell': False}
+[0.029439] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.029814] (custom_interfaces) Command: {'cmd': ['/home/sann/anaconda3/bin/cmake', '/home/sann/ros_ws/src/custom_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/sann/ros_ws/install/custom_interfaces'], 'cwd': '/home/sann/ros_ws/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'sann'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sann'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/sann/ros_ws/Open3D/build'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2164'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sann'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sann'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/sann/anaconda3/bin:/home/sann/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sann:@/tmp/.ICE-unix/1794,unix/sann:/tmp/.ICE-unix/1794'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/386eef51_bb95_4923_a026_4bafa0b0ab89'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/sann/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('CMAKE_LIBRARY_PATH', '/usr/lib:/usr/local/lib:'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sann/ros_ws/build/custom_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/sann/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('CONDA_PREFIX', '/home/sann/anaconda3'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/path/to/open3d/cmake:/usr/lib/python3/dist-packages/open3d/cmake:/home/sann/ros_ws/install/ur_moveit_config:/home/sann/ros_ws/install/ur_client_library:/home/sann/ros_ws/install/my_robot_controller')]), 'shell': False}
+[0.031256] (ur_moveit_config) JobProgress: {'identifier': 'ur_moveit_config', 'progress': 'cmake'}
+[0.031606] (ur_moveit_config) JobProgress: {'identifier': 'ur_moveit_config', 'progress': 'build'}
+[0.031828] (ur_moveit_config) Command: {'cmd': ['/home/sann/anaconda3/bin/cmake', '--build', '/home/sann/ros_ws/build/ur_moveit_config', '--', '-j28', '-l28'], 'cwd': '/home/sann/ros_ws/build/ur_moveit_config', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'sann'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sann'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/sann/ros_ws/Open3D/build'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2164'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sann'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sann'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/sann/anaconda3/bin:/home/sann/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sann:@/tmp/.ICE-unix/1794,unix/sann:/tmp/.ICE-unix/1794'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/386eef51_bb95_4923_a026_4bafa0b0ab89'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/sann/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('CMAKE_LIBRARY_PATH', '/usr/lib:/usr/local/lib:'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sann/ros_ws/build/ur_moveit_config'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/sann/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('CONDA_PREFIX', '/home/sann/anaconda3'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/path/to/open3d/cmake:/usr/lib/python3/dist-packages/open3d/cmake:/home/sann/ros_ws/install/ur_moveit_config:/home/sann/ros_ws/install/ur_client_library:/opt/ros/humble:/home/sann/ros_ws/install/my_robot_controller')]), 'shell': False}
+[0.032850] (Open3D) JobProgress: {'identifier': 'Open3D', 'progress': 'cmake'}
+[0.033280] (Open3D) Command: {'cmd': ['/home/sann/anaconda3/bin/cmake', '/home/sann/ros_ws/Open3D', '-DCMAKE_INSTALL_PREFIX=/home/sann/ros_ws/install/Open3D'], 'cwd': '/home/sann/ros_ws/build/Open3D', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'sann'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sann'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/sann/ros_ws/Open3D/build'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2164'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sann'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sann'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/sann/anaconda3/bin:/home/sann/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sann:@/tmp/.ICE-unix/1794,unix/sann:/tmp/.ICE-unix/1794'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/386eef51_bb95_4923_a026_4bafa0b0ab89'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/sann/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('CMAKE_LIBRARY_PATH', '/usr/lib:/usr/local/lib:'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sann/ros_ws/build/Open3D'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/sann/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('CONDA_PREFIX', '/home/sann/anaconda3'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/path/to/open3d/cmake:/usr/lib/python3/dist-packages/open3d/cmake:/home/sann/ros_ws/install/ur_moveit_config:/home/sann/ros_ws/install/ur_client_library:/home/sann/ros_ws/install/my_robot_controller')]), 'shell': False}
+[0.034916] (my_robot_controller) JobProgress: {'identifier': 'my_robot_controller', 'progress': 'cmake'}
+[0.035334] (my_robot_controller) JobProgress: {'identifier': 'my_robot_controller', 'progress': 'build'}
+[0.035526] (my_robot_controller) Command: {'cmd': ['/home/sann/anaconda3/bin/cmake', '--build', '/home/sann/ros_ws/build/my_robot_controller', '--', '-j28', '-l28'], 'cwd': '/home/sann/ros_ws/build/my_robot_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'sann'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sann'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/sann/ros_ws/Open3D/build'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2164'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sann'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sann'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/sann/anaconda3/bin:/home/sann/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sann:@/tmp/.ICE-unix/1794,unix/sann:/tmp/.ICE-unix/1794'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/386eef51_bb95_4923_a026_4bafa0b0ab89'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/sann/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('CMAKE_LIBRARY_PATH', '/usr/lib:/usr/local/lib:'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sann/ros_ws/build/my_robot_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/sann/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('CONDA_PREFIX', '/home/sann/anaconda3'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/path/to/open3d/cmake:/usr/lib/python3/dist-packages/open3d/cmake:/home/sann/ros_ws/install/ur_moveit_config:/home/sann/ros_ws/install/ur_client_library:/home/sann/ros_ws/install/my_robot_controller')]), 'shell': False}
+[0.099431] (-) TimerEvent: {}
+[0.192076] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.192971] (ur_dashboard_msgs) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.193057] (ur_dashboard_msgs) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.193123] (ur_dashboard_msgs) StderrLine: {'line': b'  CMake.\n'}
+[0.193185] (ur_dashboard_msgs) StderrLine: {'line': b'\n'}
+[0.193251] (ur_dashboard_msgs) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.193314] (ur_dashboard_msgs) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.193815] (ur_dashboard_msgs) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.193887] (ur_dashboard_msgs) StderrLine: {'line': b'\n'}
+[0.193951] (ur_dashboard_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.194014] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.194249] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_core: 1.3.11 (/opt/ros/humble/share/ament_cmake_core/cmake)\n'}
+[0.194315] (ur_client_library) StdoutLine: {'line': b'[ 60%] Built target urcl\n'}
+[0.194401] (ur_client_library) StdoutLine: {'line': b'[ 63%] Built target driver_example\n'}
+[0.194470] (ur_client_library) StdoutLine: {'line': b'[ 72%] Built target primary_pipeline_calibration_example\n'}
+[0.194540] (ur_client_library) StdoutLine: {'line': b'[ 70%] Built target tool_contact_example\n'}
+[0.194608] (ur_client_library) StdoutLine: {'line': b'[ 77%] Built target script_sender_example\n'}
+[0.194676] (ur_client_library) StdoutLine: {'line': b'[ 77%] Built target primary_pipeline_example\n'}
+[0.194743] (ur_client_library) StdoutLine: {'line': b'[ 80%] Built target spline_example\n'}
+[0.194809] (ur_client_library) StdoutLine: {'line': b'[ 83%] Built target rtde_client_example\n'}
+[0.194876] (ur_client_library) StdoutLine: {'line': b'[ 90%] Built target dashboard_example\n'}
+[0.194943] (ur_client_library) StdoutLine: {'line': b'[ 90%] Built target freedrive_example\n'}
+[0.195010] (ur_client_library) StdoutLine: {'line': b'[ 93%] Built target force_mode_example\n'}
+[0.195077] (ur_client_library) StdoutLine: {'line': b'[ 96%] Built target trajectory_point_interface_example\n'}
+[0.195143] (ur_client_library) StdoutLine: {'line': b'[100%] Built target instruction_executor\n'}
+[0.195269] (ur_moveit_config) StdoutLine: {'line': b'Built target ament_cmake_python_symlink_ur_moveit_config\n'}
+[0.195991] (Open3D) StdoutLine: {'line': b'-- Setting build type to Release as none was specified.\n'}
+[0.196373] (Open3D) StdoutLine: {'line': b'-- CMAKE_BUILD_TYPE is set to Release.\n'}
+[0.196486] (Open3D) StdoutLine: {'line': b'-- Downloading third-party dependencies to /home/sann/ros_ws/Open3D/3rdparty_downloads\n'}
+[0.196649] (Open3D) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.196717] (Open3D) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.196779] (Open3D) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.196841] (my_robot_controller) StdoutLine: {'line': b'[100%] Built target my_node\n'}
+[0.197009] (Open3D) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:200 (cmake_policy):\n'}
+[0.197108] (Open3D) StderrLine: {'line': b'  The OLD behavior for policy CMP0072 will be removed from a future version\n'}
+[0.197167] (Open3D) StderrLine: {'line': b'  of CMake.\n'}
+[0.197230] (Open3D) StderrLine: {'line': b'\n'}
+[0.197295] (Open3D) StderrLine: {'line': b'  The cmake-policies(7) manual explains that the OLD behaviors of all\n'}
+[0.197459] (Open3D) StderrLine: {'line': b'  policies are deprecated and that a policy should be set to OLD only under\n'}
+[0.197531] (Open3D) StderrLine: {'line': b'  specific short-term circumstances.  Projects should be ported to the NEW\n'}
+[0.197597] (Open3D) StderrLine: {'line': b'  behavior and not rely on setting a policy to OLD.\n'}
+[0.197661] (Open3D) StderrLine: {'line': b'\n'}
+[0.197724] (Open3D) StderrLine: {'line': b'\x1b[0m\n'}
+[0.197790] (vision_processing) JobProgress: {'identifier': 'vision_processing', 'progress': 'cmake'}
+[0.197957] (vision_processing) Command: {'cmd': ['/home/sann/anaconda3/bin/cmake', '/home/sann/ros_ws/src/vision_processing', '-DCMAKE_INSTALL_PREFIX=/home/sann/ros_ws/install/vision_processing'], 'cwd': '/home/sann/ros_ws/build/vision_processing', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'sann'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sann'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/sann/ros_ws/Open3D/build'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2164'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sann'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sann'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/sann/anaconda3/bin:/home/sann/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sann:@/tmp/.ICE-unix/1794,unix/sann:/tmp/.ICE-unix/1794'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/386eef51_bb95_4923_a026_4bafa0b0ab89'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/sann/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('CMAKE_LIBRARY_PATH', '/usr/lib:/usr/local/lib:'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sann/ros_ws/build/vision_processing'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/sann/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('CONDA_PREFIX', '/home/sann/anaconda3'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/path/to/open3d/cmake:/usr/lib/python3/dist-packages/open3d/cmake:/home/sann/ros_ws/install/ur_moveit_config:/home/sann/ros_ws/install/ur_client_library:/home/sann/ros_ws/install/my_robot_controller')]), 'shell': False}
+[0.200341] (-) TimerEvent: {}
+[0.200478] (my_robot_controller) CommandEnded: {'returncode': 0}
+[0.201194] (my_robot_controller) JobProgress: {'identifier': 'my_robot_controller', 'progress': 'install'}
+[0.224362] (Open3D) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.237150] (Open3D) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.237337] (Open3D) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.237732] (Open3D) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.242967] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.245031] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.247972] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.249127] (Open3D) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.253817] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.255499] (my_robot_controller) Command: {'cmd': ['/home/sann/anaconda3/bin/cmake', '--install', '/home/sann/ros_ws/build/my_robot_controller'], 'cwd': '/home/sann/ros_ws/build/my_robot_controller', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'sann'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sann'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/sann/ros_ws/Open3D/build'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2164'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sann'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sann'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/sann/anaconda3/bin:/home/sann/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sann:@/tmp/.ICE-unix/1794,unix/sann:/tmp/.ICE-unix/1794'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/386eef51_bb95_4923_a026_4bafa0b0ab89'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/sann/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('CMAKE_LIBRARY_PATH', '/usr/lib:/usr/local/lib:'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sann/ros_ws/build/my_robot_controller'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/sann/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('CONDA_PREFIX', '/home/sann/anaconda3'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/path/to/open3d/cmake:/usr/lib/python3/dist-packages/open3d/cmake:/home/sann/ros_ws/install/ur_moveit_config:/home/sann/ros_ws/install/ur_client_library:/home/sann/ros_ws/install/my_robot_controller')]), 'shell': False}
+[0.256153] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.256268] (ur_client_library) CommandEnded: {'returncode': 0}
+[0.257003] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.257142] (ur_client_library) JobProgress: {'identifier': 'ur_client_library', 'progress': 'install'}
+[0.258031] (ur_client_library) Command: {'cmd': ['/home/sann/anaconda3/bin/cmake', '--install', '/home/sann/ros_ws/build/ur_client_library'], 'cwd': '/home/sann/ros_ws/build/ur_client_library', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'sann'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sann'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/sann/ros_ws/Open3D/build'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2164'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sann'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sann'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/sann/anaconda3/bin:/home/sann/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sann:@/tmp/.ICE-unix/1794,unix/sann:/tmp/.ICE-unix/1794'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/386eef51_bb95_4923_a026_4bafa0b0ab89'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/sann/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('CMAKE_LIBRARY_PATH', '/usr/lib:/usr/local/lib:'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sann/ros_ws/build/ur_client_library'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/sann/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('CONDA_PREFIX', '/home/sann/anaconda3'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/path/to/open3d/cmake:/usr/lib/python3/dist-packages/open3d/cmake:/home/sann/ros_ws/install/ur_moveit_config:/home/sann/ros_ws/install/ur_client_library:/opt/ros/humble:/home/sann/ros_ws/install/my_robot_controller')]), 'shell': False}
+[0.261877] (vision_processing) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.282287] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.282512] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300440] (-) TimerEvent: {}
+[0.304593] (Open3D) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.307298] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)\n'}
+[0.308613] (ur_moveit_config) StdoutLine: {'line': b'running egg_info\n'}
+[0.308715] (custom_interfaces) StdoutLine: {'line': b'-- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)\n'}
+[0.315032] (ur_client_library) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[0.315504] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/lib/liburcl.so\n'}
+[0.315574] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include\n'}
+[0.315633] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library\n'}
+[0.315693] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/control\n'}
+[0.315791] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/control/reverse_interface.h\n'}
+[0.315851] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/control/script_sender.h\n'}
+[0.315957] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/control/script_command_interface.h\n'}
+[0.316018] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/control/trajectory_point_interface.h\n'}
+[0.316103] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/control/motion_primitives.h\n'}
+[0.316163] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/types.h\n'}
+[0.316229] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/helpers.h\n'}
+[0.316344] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/queue\n'}
+[0.316404] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/queue/readerwriterqueue.h\n'}
+[0.316464] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/queue/atomicops.h\n'}
+[0.316525] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/queue/LICENSE.md\n'}
+[0.316585] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/default_log_handler.h\n'}
+[0.316644] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/exceptions.h\n'}
+[0.316702] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/log.h\n'}
+[0.316760] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/comm\n'}
+[0.316819] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/comm/stream.h\n'}
+[0.316983] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/comm/shell_consumer.h\n'}
+[0.317052] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/comm/package.h\n'}
+[0.317107] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/comm/control_mode.h\n'}
+[0.317162] (Open3D) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.317230] (Open3D) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.317290] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/comm/parser.h\n'}
+[0.317353] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/comm/bin_parser.h\n'}
+[0.317412] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/comm/producer.h\n'}
+[0.317471] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/comm/tcp_socket.h\n'}
+[0.317529] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/comm/package_serializer.h\n'}
+[0.317587] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/comm/tcp_server.h\n'}
+[0.317647] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/comm/socket_t.h\n'}
+[0.317706] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/comm/pipeline.h\n'}
+[0.317791] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/rtde\n'}
+[0.317846] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/rtde/control_package_setup_outputs.h\n'}
+[0.317901] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/rtde/rtde_package.h\n'}
+[0.317956] (Open3D) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.318012] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/rtde/package_header.h\n'}
+[0.318130] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/rtde/rtde_writer.h\n'}
+[0.318193] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/rtde/control_package_setup_inputs.h\n'}
+[0.318347] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/rtde/data_package.h\n'}
+[0.318412] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/rtde/rtde_parser.h\n'}
+[0.318471] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/rtde/control_package_pause.h\n'}
+[0.318531] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/rtde/request_protocol_version.h\n'}
+[0.318591] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/rtde/text_message.h\n'}
+[0.318651] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/rtde/rtde_client.h\n'}
+[0.318746] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/rtde/control_package_start.h\n'}
+[0.318808] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/rtde/get_urcontrol_version.h\n'}
+[0.318867] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/example_robot_wrapper.h\n'}
+[0.318926] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/primary\n'}
+[0.318984] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/primary/robot_message.h\n'}
+[0.319044] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/primary/primary_consumer.h\n'}
+[0.319102] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/primary/robot_message\n'}
+[0.319161] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/primary/robot_message/error_code_message.h\n'}
+[0.319225] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/primary/robot_message/version_message.h\n'}
+[0.319293] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/primary/package_header.h\n'}
+[0.319353] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/primary/robot_state\n'}
+[0.319412] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/primary/robot_state/kinematics_info.h\n'}
+[0.319696] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/primary/robot_state/robot_mode_data.h\n'}
+[0.319759] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/primary/primary_parser.h\n'}
+[0.319888] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/primary/primary_client.h\n'}
+[0.319948] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/primary/robot_state.h\n'}
+[0.320007] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/primary/primary_package.h\n'}
+[0.320067] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/primary/abstract_primary_consumer.h\n'}
+[0.320125] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/ur\n'}
+[0.320184] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/ur/tool_communication.h\n'}
+[0.320382] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/ur/ur_driver.h\n'}
+[0.320445] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/ur/robot_receive_timeout.h\n'}
+[0.320503] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/ur/dashboard_client.h\n'}
+[0.320563] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/ur/datatypes.h\n'}
+[0.320651] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/ur/instruction_executor.h\n'}
+[0.320710] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/ur/version_information.h\n'}
+[0.320769] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/include/ur_client_library/ur/calibration_checker.h\n'}
+[0.320828] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/lib/cmake/ur_client_library/urclTargets.cmake\n'}
+[0.320886] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/lib/cmake/ur_client_library/urclTargets-relwithdebinfo.cmake\n'}
+[0.320945] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/lib/ur_client_library/start_ursim.sh\n'}
+[0.321136] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/lib/cmake/ur_client_library/ur_client_libraryConfig.cmake\n'}
+[0.321197] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/share/ur_client_library/package.xml\n'}
+[0.321265] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/share/ament_index/resource_index/packages/ur_client_library\n'}
+[0.321326] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/share/ur_client_library/hook/ament_prefix_path.dsv\n'}
+[0.321385] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/share/ur_client_library/hook/ros_package_path.dsv\n'}
+[0.321443] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/share/ur_client_library/resources\n'}
+[0.321612] (ur_client_library) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/ur_client_library/share/ur_client_library/resources/external_control.urscript\n'}
+[0.321674] (my_robot_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.321942] (my_robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/my_robot_controller/lib/my_robot_controller/my_node\n'}
+[0.322006] (ur_moveit_config) StdoutLine: {'line': b'writing ur_moveit_config.egg-info/PKG-INFO\n'}
+[0.322115] (ur_moveit_config) StdoutLine: {'line': b'writing dependency_links to ur_moveit_config.egg-info/dependency_links.txt\n'}
+[0.322175] (ur_moveit_config) StdoutLine: {'line': b'writing top-level names to ur_moveit_config.egg-info/top_level.txt\n'}
+[0.322240] (my_robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/my_robot_controller/share/ament_index/resource_index/package_run_dependencies/my_robot_controller\n'}
+[0.322306] (my_robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/my_robot_controller/share/ament_index/resource_index/parent_prefix_path/my_robot_controller\n'}
+[0.322366] (my_robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/environment/ament_prefix_path.sh\n'}
+[0.322425] (my_robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/environment/ament_prefix_path.dsv\n'}
+[0.322485] (my_robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/environment/path.sh\n'}
+[0.322544] (my_robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/environment/path.dsv\n'}
+[0.322606] (my_robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/local_setup.bash\n'}
+[0.322665] (my_robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/local_setup.sh\n'}
+[0.322725] (my_robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/local_setup.zsh\n'}
+[0.322784] (my_robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/local_setup.dsv\n'}
+[0.322844] (my_robot_controller) StdoutLine: {'line': b'-- Installing: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/package.dsv\n'}
+[0.322903] (my_robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/my_robot_controller/share/ament_index/resource_index/packages/my_robot_controller\n'}
+[0.322962] (my_robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/cmake/my_robot_controllerConfig.cmake\n'}
+[0.323024] (my_robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/cmake/my_robot_controllerConfig-version.cmake\n'}
+[0.323083] (my_robot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/sann/ros_ws/install/my_robot_controller/share/my_robot_controller/package.xml\n'}
+[0.323144] (Open3D) StdoutLine: {'line': b'-- Open3D 0.19.0+4356c1727\n'}
+[0.323226] (ur_client_library) CommandEnded: {'returncode': 0}
+[0.337614] (ur_client_library) JobEnded: {'identifier': 'ur_client_library', 'rc': 0}
+[0.338258] (my_robot_controller) CommandEnded: {'returncode': 0}
+[0.344036] (custom_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.344359] (my_robot_controller) JobEnded: {'identifier': 'my_robot_controller', 'rc': 0}
+[0.349763] (ur_moveit_config) StdoutLine: {'line': b"reading manifest file 'ur_moveit_config.egg-info/SOURCES.txt'\n"}
+[0.350337] (ur_moveit_config) StdoutLine: {'line': b"writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'\n"}
+[0.364902] (ur_moveit_config) StdoutLine: {'line': b'Built target ament_cmake_python_build_ur_moveit_config_egg\n'}
+[0.368729] (ur_moveit_config) CommandEnded: {'returncode': 0}
+[0.369732] (ur_moveit_config) JobProgress: {'identifier': 'ur_moveit_config', 'progress': 'install'}
+[0.370169] (ur_moveit_config) Command: {'cmd': ['/home/sann/anaconda3/bin/cmake', '--install', '/home/sann/ros_ws/build/ur_moveit_config'], 'cwd': '/home/sann/ros_ws/build/ur_moveit_config', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('HTTPS_PROXY', 'http://127.0.0.1:7890/'), ('no_proxy', 'localhost,127.0.0.1,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'sann'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sann'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/sann/ros_ws/Open3D/build'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.1,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2164'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('https_proxy', 'http://127.0.0.1:7890/'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'sann'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sann'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/sann/anaconda3/bin:/home/sann/anaconda3/condabin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sann:@/tmp/.ICE-unix/1794,unix/sann:/tmp/.ICE-unix/1794'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/386eef51_bb95_4923_a026_4bafa0b0ab89'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.106'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/sann/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('CMAKE_LIBRARY_PATH', '/usr/lib:/usr/local/lib:'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sann/ros_ws/build/ur_moveit_config'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/sann/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('CONDA_PREFIX', '/home/sann/anaconda3'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/path/to/open3d/cmake:/usr/lib/python3/dist-packages/open3d/cmake:/home/sann/ros_ws/install/ur_moveit_config:/home/sann/ros_ws/install/ur_client_library:/opt/ros/humble:/home/sann/ros_ws/install/my_robot_controller')]), 'shell': False}
+[0.400528] (-) TimerEvent: {}
+[0.412314] (vision_processing) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[0.434808] (ur_moveit_config) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.435478] (ur_moveit_config) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.436197] (ur_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/config/controllers.yaml\n'}
+[0.436306] (ur_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/config/joint_limits.yaml\n'}
+[0.436409] (ur_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/config/kinematics.yaml\n'}
+[0.436512] (ur_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/config/ompl_planning.yaml\n'}
+[0.436581] (ur_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/config/ur_servo.yaml\n'}
+[0.437312] (ur_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/launch/ur_moveit.launch.py\n'}
+[0.437974] (ur_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/rviz/view_robot.rviz\n'}
+[0.438220] (ur_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/srdf/ur.srdf.xacro\n'}
+[0.438314] (ur_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/srdf/ur_macro.srdf.xacro\n'}
+[0.438395] (ur_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.sh\n'}
+[0.438496] (ur_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.dsv\n'}
+[0.438793] (ur_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sann/ros_ws/install/ur_moveit_config/lib/python3.11/site-packages/ur_moveit_config-2.6.0-py3.11.egg-info/PKG-INFO\n'}
+[0.438882] (ur_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sann/ros_ws/install/ur_moveit_config/lib/python3.11/site-packages/ur_moveit_config-2.6.0-py3.11.egg-info/SOURCES.txt\n'}
+[0.438975] (ur_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sann/ros_ws/install/ur_moveit_config/lib/python3.11/site-packages/ur_moveit_config-2.6.0-py3.11.egg-info/dependency_links.txt\n'}
+[0.439053] (ur_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sann/ros_ws/install/ur_moveit_config/lib/python3.11/site-packages/ur_moveit_config-2.6.0-py3.11.egg-info/top_level.txt\n'}
+[0.439225] (ur_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sann/ros_ws/install/ur_moveit_config/lib/python3.11/site-packages/ur_moveit_config/__init__.py\n'}
+[0.439316] (ur_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sann/ros_ws/install/ur_moveit_config/lib/python3.11/site-packages/ur_moveit_config/launch_common.py\n'}
+[0.439431] (ur_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sann/ros_ws/install/ur_moveit_config/lib/python3.11/site-packages/launch_common.py\n'}
+[0.439507] (ur_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sann/ros_ws/install/ur_moveit_config/share/ament_index/resource_index/package_run_dependencies/ur_moveit_config\n'}
+[0.439666] (ur_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sann/ros_ws/install/ur_moveit_config/share/ament_index/resource_index/parent_prefix_path/ur_moveit_config\n'}
+[0.439770] (ur_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.sh\n'}
+[0.439844] (ur_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.dsv\n'}
+[0.439919] (ur_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/environment/path.sh\n'}
+[0.439995] (ur_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/environment/path.dsv\n'}
+[0.440102] (ur_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.bash\n'}
+[0.440203] (ur_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.sh\n'}
+[0.440317] (ur_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.zsh\n'}
+[0.440397] (ur_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/local_setup.dsv\n'}
+[0.440477] (ur_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/package.dsv\n'}
+[0.443187] (ur_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sann/ros_ws/install/ur_moveit_config/share/ament_index/resource_index/packages/ur_moveit_config\n'}
+[0.443318] (ur_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig.cmake\n'}
+[0.443409] (ur_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig-version.cmake\n'}
+[0.443482] (ur_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sann/ros_ws/install/ur_moveit_config/share/ur_moveit_config/package.xml\n'}
+[0.468677] (ur_moveit_config) StdoutLine: {'line': b"Listing '/home/sann/ros_ws/install/ur_moveit_config/lib/python3.11/site-packages/ur_moveit_config'...\n"}
+[0.482365] (ur_dashboard_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[0.482536] (ur_dashboard_msgs) StderrLine: {'line': b'  execute_process(/home/sann/anaconda3/bin/python3 -m rosidl_adapter\n'}
+[0.482700] (ur_dashboard_msgs) StderrLine: {'line': b'  --package-name ur_dashboard_msgs --arguments-file\n'}
+[0.482774] (ur_dashboard_msgs) StderrLine: {'line': b'  /home/sann/ros_ws/build/ur_dashboard_msgs/rosidl_adapter__arguments__ur_dashboard_msgs.json\n'}
+[0.482837] (ur_dashboard_msgs) StderrLine: {'line': b'  --output-dir\n'}
+[0.482904] (ur_dashboard_msgs) StderrLine: {'line': b'  /home/sann/ros_ws/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs\n'}
+[0.482961] (ur_dashboard_msgs) StderrLine: {'line': b'  --output-file\n'}
+[0.483018] (ur_dashboard_msgs) StderrLine: {'line': b'  /home/sann/ros_ws/build/ur_dashboard_msgs/rosidl_adapter/ur_dashboard_msgs.idls)\n'}
+[0.483076] (ur_dashboard_msgs) StderrLine: {'line': b'  returned error code 1:\n'}
+[0.483132] (ur_dashboard_msgs) StderrLine: {'line': b'\n'}
+[0.483189] (ur_dashboard_msgs) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.483259] (ur_dashboard_msgs) StderrLine: {'line': b'\n'}
+[0.483316] (ur_dashboard_msgs) StderrLine: {'line': b'    File "<frozen runpy>", line 198, in _run_module_as_main\n'}
+[0.483371] (ur_dashboard_msgs) StderrLine: {'line': b'    File "<frozen runpy>", line 88, in _run_code\n'}
+[0.483425] (ur_dashboard_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[0.483481] (ur_dashboard_msgs) StderrLine: {'line': b'      sys.exit(main())\n'}
+[0.483536] (ur_dashboard_msgs) StderrLine: {'line': b'               ^^^^^^\n'}
+[0.483590] (ur_dashboard_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[0.483646] (ur_dashboard_msgs) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[0.483701] (ur_dashboard_msgs) StderrLine: {'line': b'                     ^^^^^^^^^^^^^^^\n'}
+[0.483755] (ur_dashboard_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 18, in convert_to_idl\n'}
+[0.483811] (ur_dashboard_msgs) StderrLine: {'line': b'      from rosidl_adapter.msg import convert_msg_to_idl\n'}
+[0.483865] (ur_dashboard_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 16, in <module>\n'}
+[0.483921] (ur_dashboard_msgs) StderrLine: {'line': b'      from rosidl_adapter.resource import expand_template\n'}
+[0.483976] (ur_dashboard_msgs) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>\n'}
+[0.484031] (ur_dashboard_msgs) StderrLine: {'line': b'      import em\n'}
+[0.484089] (ur_dashboard_msgs) StderrLine: {'line': b'\n'}
+[0.484144] (ur_dashboard_msgs) StderrLine: {'line': b"  ModuleNotFoundError: No module named 'em'\n"}
+[0.484200] (ur_dashboard_msgs) StderrLine: {'line': b'\n'}
+[0.484264] (ur_dashboard_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.484320] (ur_dashboard_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[0.484376] (ur_dashboard_msgs) StderrLine: {'line': b'  CMakeLists.txt:32 (rosidl_generate_interfaces)\n'}
+[0.484431] (ur_dashboard_msgs) StderrLine: {'line': b'\n'}
+[0.484487] (ur_dashboard_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.484542] (ur_dashboard_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.486092] (ur_dashboard_msgs) CommandEnded: {'returncode': 1}
+[0.487347] (vision_processing) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:16 (find_package):\n'}
+[0.487457] (vision_processing) StderrLine: {'line': b'  By not providing "Findopen3d.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[0.487522] (vision_processing) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "open3d", but\n'}
+[0.487580] (vision_processing) StderrLine: {'line': b'  CMake did not find one.\n'}
+[0.487637] (vision_processing) StderrLine: {'line': b'\n'}
+[0.487693] (vision_processing) StderrLine: {'line': b'  Could not find a package configuration file provided by "open3d" with any\n'}
+[0.487748] (vision_processing) StderrLine: {'line': b'  of the following names:\n'}
+[0.487802] (vision_processing) StderrLine: {'line': b'\n'}
+[0.487857] (vision_processing) StderrLine: {'line': b'    open3dConfig.cmake\n'}
+[0.487915] (vision_processing) StderrLine: {'line': b'    open3d-config.cmake\n'}
+[0.487970] (vision_processing) StderrLine: {'line': b'\n'}
+[0.488023] (vision_processing) StderrLine: {'line': b'  Add the installation prefix of "open3d" to CMAKE_PREFIX_PATH or set\n'}
+[0.488077] (vision_processing) StderrLine: {'line': b'  "open3d_DIR" to a directory containing one of the above files.  If "open3d"\n'}
+[0.488131] (vision_processing) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[0.488185] (vision_processing) StderrLine: {'line': b'  installed.\n'}
+[0.488247] (vision_processing) StderrLine: {'line': b'\n'}
+[0.488307] (vision_processing) StderrLine: {'line': b'\x1b[0m\n'}
+[0.488361] (vision_processing) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.489028] (vision_processing) CommandEnded: {'returncode': 1}
+[0.489581] (vision_processing) JobEnded: {'identifier': 'vision_processing', 'rc': 1}
+[0.500700] (-) TimerEvent: {}
+[0.504064] (ur_moveit_config) JobEnded: {'identifier': 'ur_moveit_config', 'rc': 'SIGINT'}
+[0.510640] (custom_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[0.510909] (custom_interfaces) StderrLine: {'line': b'  execute_process(/home/sann/anaconda3/bin/python3 -m rosidl_adapter\n'}
+[0.510982] (custom_interfaces) StderrLine: {'line': b'  --package-name custom_interfaces --arguments-file\n'}
+[0.511044] (custom_interfaces) StderrLine: {'line': b'  /home/sann/ros_ws/build/custom_interfaces/rosidl_adapter__arguments__custom_interfaces.json\n'}
+[0.511102] (custom_interfaces) StderrLine: {'line': b'  --output-dir\n'}
+[0.511158] (custom_interfaces) StderrLine: {'line': b'  /home/sann/ros_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces\n'}
+[0.511221] (custom_interfaces) StderrLine: {'line': b'  --output-file\n'}
+[0.511282] (custom_interfaces) StderrLine: {'line': b'  /home/sann/ros_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces.idls)\n'}
+[0.511339] (custom_interfaces) StderrLine: {'line': b'  returned error code 1:\n'}
+[0.511394] (custom_interfaces) StderrLine: {'line': b'\n'}
+[0.511450] (custom_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.511505] (custom_interfaces) StderrLine: {'line': b'\n'}
+[0.511560] (custom_interfaces) StderrLine: {'line': b'    File "<frozen runpy>", line 198, in _run_module_as_main\n'}
+[0.511615] (custom_interfaces) StderrLine: {'line': b'    File "<frozen runpy>", line 88, in _run_code\n'}
+[0.511670] (custom_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[0.511726] (custom_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[0.511781] (custom_interfaces) StderrLine: {'line': b'               ^^^^^^\n'}
+[0.511836] (custom_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[0.511891] (custom_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[0.511946] (custom_interfaces) StderrLine: {'line': b'                     ^^^^^^^^^^^^^^^\n'}
+[0.512001] (custom_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 23, in convert_to_idl\n'}
+[0.512056] (custom_interfaces) StderrLine: {'line': b'      from rosidl_adapter.srv import convert_srv_to_idl\n'}
+[0.512111] (custom_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 16, in <module>\n'}
+[0.512166] (custom_interfaces) StderrLine: {'line': b'      from rosidl_adapter.resource import expand_template\n'}
+[0.512235] (custom_interfaces) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/resource/__init__.py", line 19, in <module>\n'}
+[0.512296] (custom_interfaces) StderrLine: {'line': b'      import em\n'}
+[0.512357] (custom_interfaces) StderrLine: {'line': b'\n'}
+[0.512413] (custom_interfaces) StderrLine: {'line': b"  ModuleNotFoundError: No module named 'em'\n"}
+[0.512468] (custom_interfaces) StderrLine: {'line': b'\n'}
+[0.512525] (custom_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.512579] (custom_interfaces) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[0.512636] (custom_interfaces) StderrLine: {'line': b'  CMakeLists.txt:12 (rosidl_generate_interfaces)\n'}
+[0.512690] (custom_interfaces) StderrLine: {'line': b'\n'}
+[0.512749] (custom_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[0.512808] (custom_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.514471] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 'SIGINT'}
+[0.518980] (Open3D) StdoutLine: {'line': b'-- Found Python3: /home/sann/anaconda3/bin/python3.11 (found suitable version "3.11.5", minimum required is "3.6") found components: Interpreter Development Development.Module Development.Embed\n'}
+[0.521561] (Open3D) StdoutLine: {'line': b'-- Fetching ISPC compiler\n'}
+[0.530407] (rl_control) JobEnded: {'identifier': 'rl_control', 'rc': 'SIGINT'}
+[0.539739] (ur_dashboard_msgs) JobEnded: {'identifier': 'ur_dashboard_msgs', 'rc': 'SIGINT'}
+[0.600898] (-) TimerEvent: {}
+[0.701267] (-) TimerEvent: {}
+[0.801616] (-) TimerEvent: {}
+[0.901971] (-) TimerEvent: {}
+[1.002305] (-) TimerEvent: {}
+[1.102568] (-) TimerEvent: {}
+[1.202937] (-) TimerEvent: {}
+[1.303203] (-) TimerEvent: {}
+[1.403589] (-) TimerEvent: {}
+[1.503949] (-) TimerEvent: {}
+[1.604198] (-) TimerEvent: {}
+[1.704421] (-) TimerEvent: {}
+[1.804689] (-) TimerEvent: {}
+[1.905015] (-) TimerEvent: {}
+[2.005357] (-) TimerEvent: {}
+[2.105633] (-) TimerEvent: {}
+[2.205910] (-) TimerEvent: {}
+[2.306294] (-) TimerEvent: {}
+[2.406507] (-) TimerEvent: {}
+[2.506760] (-) TimerEvent: {}
+[2.607080] (-) TimerEvent: {}
+[2.707358] (-) TimerEvent: {}
+[2.807602] (-) TimerEvent: {}
+[2.907957] (-) TimerEvent: {}
+[3.008276] (-) TimerEvent: {}
+[3.108497] (-) TimerEvent: {}
+[3.208758] (-) TimerEvent: {}
+[3.309074] (-) TimerEvent: {}
+[3.409349] (-) TimerEvent: {}
+[3.509570] (-) TimerEvent: {}
+[3.609873] (-) TimerEvent: {}
+[3.710171] (-) TimerEvent: {}
+[3.810401] (-) TimerEvent: {}
+[3.910645] (-) TimerEvent: {}
+[4.011038] (-) TimerEvent: {}
+[4.061045] (Open3D) StdoutLine: {'line': b'-- Building with detected instruction sets\n'}
+[4.061242] (Open3D) StdoutLine: {'line': b'-- Using ISPC instruction sets: avx2-i32x8\n'}
+[4.111219] (-) TimerEvent: {}
+[4.211426] (-) TimerEvent: {}
+[4.269608] (Open3D) StdoutLine: {'line': b'-- The ISPC compiler identification is Intel 1.16.1\n'}
+[4.272754] (Open3D) StdoutLine: {'line': b'-- Detecting ISPC compiler ABI info\n'}
+[4.311581] (-) TimerEvent: {}
+[4.411858] (-) TimerEvent: {}
+[4.503735] (Open3D) StdoutLine: {'line': b'-- Detecting ISPC compiler ABI info - done\n'}
+[4.505712] (Open3D) StdoutLine: {'line': b'-- Check for working ISPC compiler: /home/sann/ros_ws/build/Open3D/_deps/ext_ispc-src/bin/ispc - skipped\n'}
+[4.507148] (Open3D) StdoutLine: {'line': b'-- Performing Test FLAG_fstack_protector_strong\n'}
+[4.512024] (-) TimerEvent: {}
+[4.572194] (Open3D) StdoutLine: {'line': b'-- Performing Test FLAG_fstack_protector_strong - Success\n'}
+[4.572715] (Open3D) StdoutLine: {'line': b'-- Performing Test FLAG_Wformat\n'}
+[4.612197] (-) TimerEvent: {}
+[4.637451] (Open3D) StdoutLine: {'line': b'-- Performing Test FLAG_Wformat - Success\n'}
+[4.637846] (Open3D) StdoutLine: {'line': b'-- Performing Test FLAG_Wformat_security\n'}
+[4.707844] (Open3D) StdoutLine: {'line': b'-- Performing Test FLAG_Wformat_security - Success\n'}
+[4.708863] (Open3D) StdoutLine: {'line': b'-- Performing Test FLAG_Wl__z_noexecstack\n'}
+[4.712362] (-) TimerEvent: {}
+[4.783678] (Open3D) StdoutLine: {'line': b'-- Performing Test FLAG_Wl__z_noexecstack - Success\n'}
+[4.784365] (Open3D) StdoutLine: {'line': b'-- Performing Test FLAG_Wl__z_relro__z_now\n'}
+[4.812439] (-) TimerEvent: {}
+[4.845098] (Open3D) StdoutLine: {'line': b'-- Performing Test FLAG_Wl__z_relro__z_now - Success\n'}
+[4.845661] (Open3D) StdoutLine: {'line': b'-- Performing Test FLAG_pie\n'}
+[4.912576] (-) TimerEvent: {}
+[4.922943] (Open3D) StdoutLine: {'line': b'-- Performing Test FLAG_pie - Success\n'}
+[4.923874] (Open3D) StdoutLine: {'line': b'-- Performing Test FLAG____CONFIG_Release__LINKER___strip_debug_\n'}
+[4.993325] (Open3D) StdoutLine: {'line': b'-- Performing Test FLAG____CONFIG_Release__LINKER___strip_debug_ - Success\n'}
+[4.993636] (Open3D) StdoutLine: {'line': b'-- Using security hardening compiler flags: $<$<COMPILE_LANGUAGE:CUDA>:-Xcompiler=-fstack-protector-strong,-Wformat,-Wformat-security>;$<$<COMPILE_LANGUAGE:CXX>:-fstack-protector-strong;-Wformat;-Wformat-security>\n'}
+[4.993734] (Open3D) StdoutLine: {'line': b'-- Using security hardening linker flags: $<$<COMPILE_LANGUAGE:CUDA>:-Xcompiler=-Wl,-z,noexecstack,-Wl,-z,relro,-z,now,$<$<STREQUAL:$<TARGET_PROPERTY:TYPE>,EXECUTABLE>:-pie>,$<$<CONFIG:Release>:LINKER:--strip-debug>>;$<$<COMPILE_LANGUAGE:CXX>:-Wl,-z,noexecstack;-Wl,-z,relro,-z,now;$<$<STREQUAL:$<TARGET_PROPERTY:TYPE>,EXECUTABLE>:-pie>;$<$<CONFIG:Release>:LINKER:--strip-debug>>\n'}
+[4.993780] (Open3D) StdoutLine: {'line': b'-- Using security hardening compiler definitions: _FORTIFY_SOURCE=2\n'}
+[5.004515] (Open3D) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.012683] (-) TimerEvent: {}
+[5.072408] (Open3D) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.073529] (Open3D) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[5.073675] (Open3D) StdoutLine: {'line': b'-- Using installed third-party library 3rdparty_threads \n'}
+[5.112836] (-) TimerEvent: {}
+[5.213079] (-) TimerEvent: {}
+[5.291479] (Open3D) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5")\n'}
+[5.313265] (-) TimerEvent: {}
+[5.363025] (Open3D) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5")\n'}
+[5.363192] (Open3D) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5")\n'}
+[5.363431] (Open3D) StdoutLine: {'line': b'-- Using installed third-party library 3rdparty_openmp \n'}
+[5.363525] (Open3D) StdoutLine: {'line': b'-- Building with OpenMP\n'}
+[5.413325] (-) TimerEvent: {}
+[5.513651] (-) TimerEvent: {}
+[5.613988] (-) TimerEvent: {}
+[5.714248] (-) TimerEvent: {}
+[5.814556] (-) TimerEvent: {}
+[5.858500] (Open3D) StdoutLine: {'line': b'-- Using installed third-party library 3rdparty_x11 \n'}
+[5.885993] (Open3D) StdoutLine: {'line': b'-- Setting RPATH for 3rdparty_glew\n'}
+[5.899584] (Open3D) StdoutLine: {'line': b'-- Building third-party library JPEG from source\n'}
+[5.902381] (Open3D) StdoutLine: {'line': b'-- Looking for a ASM_NASM compiler\n'}
+[5.914718] (-) TimerEvent: {}
+[5.932772] (Open3D) StdoutLine: {'line': b'-- Looking for a ASM_NASM compiler - NOTFOUND\n'}
+[5.933001] (Open3D) StdoutLine: {'line': b'-- NASM assembler not found - libjpeg-turbo performance may suffer\n'}
+[5.933106] (Open3D) StdoutLine: {'line': b'-- libturbojpeg: WITH_CRT_DLL=OFF\n'}
+[5.965776] (Open3D) StdoutLine: {'line': b'-- Setting RPATH for 3rdparty_liblzf\n'}
+[6.013403] (Open3D) StdoutLine: {'line': b'-- Setting RPATH for 3rdparty_rply\n'}
+[6.013685] (Open3D) StdoutLine: {'line': b'-- Setting RPATH for 3rdparty_tinyfiledialogs\n'}
+[6.014863] (-) TimerEvent: {}
+[6.039607] (Open3D) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:1953 (message):\n'}
+[6.039819] (Open3D) StderrLine: {'line': b'  Calling FetchContent_Populate(ext_qhull) is deprecated, call\n'}
+[6.039887] (Open3D) StderrLine: {'line': b'  FetchContent_MakeAvailable(ext_qhull) instead.  Policy CMP0169 can be set\n'}
+[6.039957] (Open3D) StderrLine: {'line': b'  to OLD to allow FetchContent_Populate(ext_qhull) to be called directly for\n'}
+[6.040016] (Open3D) StderrLine: {'line': b'  now, but the ability to call it with declared details will be removed\n'}
+[6.040077] (Open3D) StderrLine: {'line': b'  completely in a future version.\n'}
+[6.040134] (Open3D) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.040190] (Open3D) StderrLine: {'line': b'  3rdparty/qhull/qhull.cmake:13 (FetchContent_Populate)\n'}
+[6.040262] (Open3D) StderrLine: {'line': b'  3rdparty/find_dependencies.cmake:1026 (include)\n'}
+[6.040319] (Open3D) StderrLine: {'line': b'  CMakeLists.txt:534 (include)\n'}
+[6.040375] (Open3D) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.040431] (Open3D) StderrLine: {'line': b'\x1b[0m\n'}
+[6.115074] (-) TimerEvent: {}
+[6.215480] (-) TimerEvent: {}
+[6.225004] (Open3D) StdoutLine: {'line': b'-- Setting RPATH for 3rdparty_qhull_r\n'}
+[6.225567] (Open3D) StdoutLine: {'line': b'-- Setting RPATH for 3rdparty_qhullcpp\n'}
+[6.315600] (-) TimerEvent: {}
+[6.415971] (-) TimerEvent: {}
+[6.433044] (Open3D) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /home/sann/ros_ws/build/Open3D/_deps/ext_pybind11-src/CMakeLists.txt:13 (cmake_minimum_required):\n'}
+[6.433237] (Open3D) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[6.433452] (Open3D) StderrLine: {'line': b'  CMake.\n'}
+[6.433602] (Open3D) StderrLine: {'line': b'\n'}
+[6.433657] (Open3D) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[6.433706] (Open3D) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[6.433752] (Open3D) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[6.433798] (Open3D) StderrLine: {'line': b'\n'}
+[6.433843] (Open3D) StderrLine: {'line': b'\x1b[0m\n'}
+[6.439163] (Open3D) StdoutLine: {'line': b'-- pybind11 v2.13.1 \n'}
+[6.458567] (Open3D) StdoutLine: {'line': b'-- Found PythonInterp: /home/sann/anaconda3/bin/python3.11 (found suitable version "3.11.5", minimum required is "3.7")\n'}
+[6.480719] (Open3D) StdoutLine: {'line': b'-- Found PythonLibs: /home/sann/anaconda3/lib/libpython3.11.so\n'}
+[6.481567] (Open3D) StdoutLine: {'line': b'-- Performing Test HAS_FLTO\n'}
+[6.516149] (-) TimerEvent: {}
+[6.586149] (Open3D) StdoutLine: {'line': b'-- Performing Test HAS_FLTO - Success\n'}
+[6.606376] (Open3D) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:1564 (cmake_parse_arguments):\n'}
+[6.606482] (Open3D) StderrLine: {'line': b'  The BUILD_COMMAND keyword was followed by an empty string or no value at\n'}
+[6.606516] (Open3D) StderrLine: {'line': b'  all.  Policy CMP0174 is not set, so cmake_parse_arguments() will unset the\n'}
+[6.606545] (Open3D) StderrLine: {'line': b'  ARG_BUILD_COMMAND variable rather than setting it to an empty string.\n'}
+[6.606572] (Open3D) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.606607] (Open3D) StderrLine: {'line': b'  /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2145:EVAL:2 (__FetchContent_doPopulation)\n'}
+[6.606634] (Open3D) StderrLine: {'line': b'  /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2145 (cmake_language)\n'}
+[6.606660] (Open3D) StderrLine: {'line': b'  /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2384 (__FetchContent_Populate)\n'}
+[6.606686] (Open3D) StderrLine: {'line': b'  3rdparty/imgui/imgui.cmake:15 (FetchContent_MakeAvailable)\n'}
+[6.606710] (Open3D) StderrLine: {'line': b'  3rdparty/find_dependencies.cmake:1192 (include)\n'}
+[6.606734] (Open3D) StderrLine: {'line': b'  CMakeLists.txt:534 (include)\n'}
+[6.606759] (Open3D) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.606782] (Open3D) StderrLine: {'line': b'\x1b[0m\n'}
+[6.606807] (Open3D) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:1564 (cmake_parse_arguments):\n'}
+[6.606838] (Open3D) StderrLine: {'line': b'  The CONFIGURE_COMMAND keyword was followed by an empty string or no value\n'}
+[6.606866] (Open3D) StderrLine: {'line': b'  at all.  Policy CMP0174 is not set, so cmake_parse_arguments() will unset\n'}
+[6.606890] (Open3D) StderrLine: {'line': b'  the ARG_CONFIGURE_COMMAND variable rather than setting it to an empty\n'}
+[6.606915] (Open3D) StderrLine: {'line': b'  string.\n'}
+[6.606940] (Open3D) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.606963] (Open3D) StderrLine: {'line': b'  /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2145:EVAL:2 (__FetchContent_doPopulation)\n'}
+[6.606989] (Open3D) StderrLine: {'line': b'  /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2145 (cmake_language)\n'}
+[6.607013] (Open3D) StderrLine: {'line': b'  /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2384 (__FetchContent_Populate)\n'}
+[6.607036] (Open3D) StderrLine: {'line': b'  3rdparty/imgui/imgui.cmake:15 (FetchContent_MakeAvailable)\n'}
+[6.607059] (Open3D) StderrLine: {'line': b'  3rdparty/find_dependencies.cmake:1192 (include)\n'}
+[6.607083] (Open3D) StderrLine: {'line': b'  CMakeLists.txt:534 (include)\n'}
+[6.607107] (Open3D) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.607132] (Open3D) StderrLine: {'line': b'\x1b[0m\n'}
+[6.607155] (Open3D) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:1564 (cmake_parse_arguments):\n'}
+[6.607179] (Open3D) StderrLine: {'line': b'  The INSTALL_COMMAND keyword was followed by an empty string or no value at\n'}
+[6.607203] (Open3D) StderrLine: {'line': b'  all.  Policy CMP0174 is not set, so cmake_parse_arguments() will unset the\n'}
+[6.607240] (Open3D) StderrLine: {'line': b'  ARG_INSTALL_COMMAND variable rather than setting it to an empty string.\n'}
+[6.607264] (Open3D) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.607291] (Open3D) StderrLine: {'line': b'  /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2145:EVAL:2 (__FetchContent_doPopulation)\n'}
+[6.607315] (Open3D) StderrLine: {'line': b'  /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2145 (cmake_language)\n'}
+[6.607340] (Open3D) StderrLine: {'line': b'  /home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/share/cmake-4.0/Modules/FetchContent.cmake:2384 (__FetchContent_Populate)\n'}
+[6.607364] (Open3D) StderrLine: {'line': b'  3rdparty/imgui/imgui.cmake:15 (FetchContent_MakeAvailable)\n'}
+[6.607387] (Open3D) StderrLine: {'line': b'  3rdparty/find_dependencies.cmake:1192 (include)\n'}
+[6.607411] (Open3D) StderrLine: {'line': b'  CMakeLists.txt:534 (include)\n'}
+[6.607433] (Open3D) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.607457] (Open3D) StderrLine: {'line': b'\x1b[0m\n'}
+[6.616344] (-) TimerEvent: {}
+[6.716548] (-) TimerEvent: {}
+[6.793504] (Open3D) StdoutLine: {'line': b'-- Setting RPATH for 3rdparty_imgui\n'}
+[6.793766] (Open3D) StdoutLine: {'line': b'-- Using prebuilt third-party library Filament\n'}
+[6.801590] (Open3D) StdoutLine: {'line': b'-- GLIBC version 2.35-0 found: Using Open3D Filament binary.\n'}
+[6.814296] (Open3D) StdoutLine: {'line': b'-- Filament is located at /home/sann/ros_ws/build/Open3D/filament/src/ext_filament\n'}
+[6.814815] (Open3D) StdoutLine: {'line': b'-- Searching /usr/lib/llvm-[7..19]/lib/ for libc++ and libc++abi\n'}
+[6.815146] (Open3D) StdoutLine: {'line': b'-- Clang C++ libraries not found. Searching other paths...\n'}
+[6.816615] (-) TimerEvent: {}
+[6.818997] (Open3D) StdoutLine: {'line': b'-- Using CLANG_LIBDIR: /home/sann/ros_ws/Open3D\n'}
+[6.819103] (Open3D) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at 3rdparty/find_dependencies.cmake:1369 (file):\n'}
+[6.819142] (Open3D) StderrLine: {'line': b'  Given path:\n'}
+[6.819170] (Open3D) StderrLine: {'line': b'\n'}
+[6.819196] (Open3D) StderrLine: {'line': b'    CPPABI_LIBRARY-NOTFOUND\n'}
+[6.819236] (Open3D) StderrLine: {'line': b'\n'}
+[6.819264] (Open3D) StderrLine: {'line': b'  does not refer to an existing path on disk.\n'}
+[6.819291] (Open3D) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.819316] (Open3D) StderrLine: {'line': b'  CMakeLists.txt:534 (include)\n'}
+[6.819339] (Open3D) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[6.819372] (Open3D) StderrLine: {'line': b'\x1b[0m\n'}
+[6.819398] (Open3D) StderrLine: {'line': b'\x1b[31mCMake Error at 3rdparty/find_dependencies.cmake:1381 (find_library):\n'}
+[6.819423] (Open3D) StderrLine: {'line': b'  Could not find CPP_LIBRARY using the following names: c++\n'}
+[6.819449] (Open3D) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[6.819472] (Open3D) StderrLine: {'line': b'  CMakeLists.txt:534 (include)\n'}
+[6.819496] (Open3D) StderrLine: {'line': b'\n'}
+[6.819629] (Open3D) StderrLine: {'line': b'\x1b[0m\n'}
+[6.819698] (Open3D) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[6.830082] (Open3D) JobEnded: {'identifier': 'Open3D', 'rc': 'SIGINT'}
+[6.840742] (benchmark) JobSkipped: {'identifier': 'benchmark'}
+[6.840779] (quantum_bridge) JobSkipped: {'identifier': 'quantum_bridge'}
+[6.840792] (ur_controllers) JobSkipped: {'identifier': 'ur_controllers'}
+[6.840801] (ur_bringup) JobSkipped: {'identifier': 'ur_bringup'}
+[6.840809] (ur_robot_driver) JobSkipped: {'identifier': 'ur_robot_driver'}
+[6.840818] (ur_calibration) JobSkipped: {'identifier': 'ur_calibration'}
+[6.840826] (ur) JobSkipped: {'identifier': 'ur'}
+[6.840835] (-) EventReactorShutdown: {}

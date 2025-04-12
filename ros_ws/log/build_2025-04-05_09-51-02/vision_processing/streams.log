@@ -1,0 +1,30 @@
+[0.021s] Invoking command in '/home/sann/ros_ws/build/vision_processing': CONDA_PROMPT_MODIFIER=(base) /home/sann/anaconda3/bin/cmake /home/sann/ros_ws/src/vision_processing -DCMAKE_INSTALL_PREFIX=/home/sann/ros_ws/install/vision_processing
+[0.090s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.090s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.090s]   CMake.
+[0.090s] 
+[0.090s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.090s]   to tell CMake that the project requires at least <min> but has been updated
+[0.090s]   to work with policies introduced by <max> or earlier.
+[0.090s] 
+[0.090s] [0m
+[0.098s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.465s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[0.724s] -- Configuring incomplete, errors occurred!
+[0.728s] [31mCMake Error at CMakeLists.txt:16 (find_package):
+[0.728s]   By not providing "Findopen3d.cmake" in CMAKE_MODULE_PATH this project has
+[0.728s]   asked CMake to find a package configuration file provided by "open3d", but
+[0.728s]   CMake did not find one.
+[0.728s] 
+[0.728s]   Could not find a package configuration file provided by "open3d" with any
+[0.728s]   of the following names:
+[0.728s] 
+[0.728s]     open3dConfig.cmake
+[0.728s]     open3d-config.cmake
+[0.729s] 
+[0.729s]   Add the installation prefix of "open3d" to CMAKE_PREFIX_PATH or set
+[0.729s]   "open3d_DIR" to a directory containing one of the above files.  If "open3d"
+[0.729s]   provides a separate development package or SDK, be sure it has been
+[0.729s]   installed.
+[0.729s] 
+[0.729s] [0m

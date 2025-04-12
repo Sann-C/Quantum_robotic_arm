@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/sann/ros_ws/build/Open3D/_deps/ext_ispc-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

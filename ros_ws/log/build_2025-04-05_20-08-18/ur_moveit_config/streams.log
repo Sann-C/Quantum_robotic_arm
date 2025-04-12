@@ -1,0 +1,9 @@
+[0.019s] Invoking command in '/home/sann/ros_ws/build/ur_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/sann/anaconda3/bin/cmake --build /home/sann/ros_ws/build/ur_moveit_config -- -j28 -l28
+[0.110s] Built target ament_cmake_python_symlink_ur_moveit_config
+[0.335s] running egg_info
+[0.344s] writing ur_moveit_config.egg-info/PKG-INFO
+[0.345s] writing dependency_links to ur_moveit_config.egg-info/dependency_links.txt
+[0.345s] writing top-level names to ur_moveit_config.egg-info/top_level.txt
+[0.373s] reading manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[0.373s] writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[0.388s] Built target ament_cmake_python_build_ur_moveit_config_egg

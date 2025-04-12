@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/sann/ros_ws/build/Open3D/tinygltf/src/ext_tinygltf-stamp/download-ext_tinygltf.cmake;COMMAND;/home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/sann/ros_ws/build/Open3D/tinygltf/src/ext_tinygltf-stamp/verify-ext_tinygltf.cmake;COMMAND;/home/sann/anaconda3/lib/python3.11/site-packages/cmake/data/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/sann/ros_ws/build/Open3D/tinygltf/src/ext_tinygltf-stamp/extract-ext_tinygltf.cmake
+source_dir=/home/sann/ros_ws/build/Open3D/tinygltf/src/ext_tinygltf
+work_dir=/home/sann/ros_ws/build/Open3D/tinygltf/src
+url(s)=https://github.com/syoyo/tinygltf/archive/72f4a55edd54742bca1a71ade8ac70afca1d3f07.tar.gz
+hash=SHA256=9e848dcf0ec7dcb352ced782aea32064a63a51b3c68ed14c68531e08632a2d90
+      no_extract=
+

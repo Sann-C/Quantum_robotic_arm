@@ -1,0 +1,3 @@
+/home/sann/ros_ws/build/Open3D/_deps/ext_qhull-subbuild/CMakeFiles/ext_qhull-populate.dir
+/home/sann/ros_ws/build/Open3D/_deps/ext_qhull-subbuild/CMakeFiles/edit_cache.dir
+/home/sann/ros_ws/build/Open3D/_deps/ext_qhull-subbuild/CMakeFiles/rebuild_cache.dir

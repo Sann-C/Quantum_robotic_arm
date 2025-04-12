@@ -1,0 +1,1 @@
+Invoking command in '/home/sann/ros_ws/build/ur_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /home/sann/anaconda3/bin/cmake --build /home/sann/ros_ws/build/ur_moveit_config -- -j28 -l28

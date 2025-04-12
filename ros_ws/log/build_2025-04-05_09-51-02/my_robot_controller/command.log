@@ -1,0 +1,1 @@
+Invoking command in '/home/sann/ros_ws/build/my_robot_controller': CONDA_PROMPT_MODIFIER=(base) /home/sann/anaconda3/bin/cmake --build /home/sann/ros_ws/build/my_robot_controller -- -j28 -l28

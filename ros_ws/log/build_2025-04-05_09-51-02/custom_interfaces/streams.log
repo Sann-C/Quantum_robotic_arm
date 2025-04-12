@@ -1,0 +1,26 @@
+[0.019s] Invoking command in '/home/sann/ros_ws/build/custom_interfaces': CONDA_PROMPT_MODIFIER=(base) /home/sann/anaconda3/bin/cmake /home/sann/ros_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/sann/ros_ws/install/custom_interfaces
+[0.099s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.099s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.099s]   CMake.
+[0.099s] 
+[0.099s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.099s]   to tell CMake that the project requires at least <min> but has been updated
+[0.099s]   to work with policies introduced by <max> or earlier.
+[0.099s] 
+[0.099s] [0m
+[0.108s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.108s] -- Found ament_cmake_core: 1.3.11 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[0.400s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.415s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.584s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.672s] -- Found action_msgs: 1.2.1 (/opt/ros/humble/share/action_msgs/cmake)
+[0.791s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.898s] -- Configuring incomplete, errors occurred!
+[0.899s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.899s]   rosidl_generate_interfaces() the passed file 'srv/QuantumPathPlan.srv'
+[0.899s]   doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.899s]   '/home/sann/ros_ws/src/custom_interfaces'
+[0.899s] Call Stack (most recent call first):
+[0.899s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[0.899s] 
+[0.899s] [0m

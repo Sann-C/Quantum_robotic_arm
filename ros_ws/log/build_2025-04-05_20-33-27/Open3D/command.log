@@ -1,0 +1,1 @@
+Invoking command in '/home/sann/ros_ws/build/Open3D': CONDA_PROMPT_MODIFIER=(base) /home/sann/anaconda3/bin/cmake /home/sann/ros_ws/Open3D -DCMAKE_INSTALL_PREFIX=/home/sann/ros_ws/install/Open3D

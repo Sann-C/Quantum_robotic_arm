@@ -1,0 +1,5 @@
+# 示例：srv/MyService.srv
+string request
+---
+string response
+
